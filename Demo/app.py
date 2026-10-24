@@ -6,6 +6,7 @@ from __future__ import annotations
 import math
 import os
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -75,6 +76,39 @@ ARTIFACTS = {spec["key"]: load_artifact(spec) for spec in MODEL_SPECS}
 NEIGHBORS = get_indices()
 
 
+def _git(*args: str) -> str | None:
+    """执行只读 git 命令；仓库或 git 缺失时返回 None，不影响页面启动。"""
+    try:
+        completed = subprocess.run(
+            ["git", "-C", str(PROJECT_ROOT), *args],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=5,
+            check=False,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return None
+    if completed.returncode != 0:
+        return None
+    return completed.stdout.strip() or None
+
+
+def build_info() -> dict:
+    """汇总当前代码版本，供页脚留痕：这批数字对应哪一版。"""
+    describe = _git("describe", "--tags", "--always", "--dirty")
+    return {
+        "version": describe or "unknown",
+        "commit": _git("rev-parse", "--short", "HEAD") or "unknown",
+        "commit_date": _git("log", "-1", "--format=%ad", "--date=short") or None,
+        "dirty": bool(describe and describe.endswith("-dirty")),
+    }
+
+
+BUILD_INFO = build_info()
+
+
 def _finite_or_none(value) -> float | None:
     """把 NaN/inf 转成 None，保证 JSON 可序列化。"""
     try:
@@ -105,6 +139,12 @@ def health():
             },
         }
     )
+
+
+@app.get("/api/version")
+def version():
+    """返回当前代码版本，供页面页脚留痕与截图核对。"""
+    return jsonify(BUILD_INFO)
 
 
 @app.post("/api/predict")

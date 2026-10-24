@@ -8,6 +8,7 @@ const domainWarning = document.querySelector("#domainWarning");
 const modelMeta = document.querySelector("#modelMeta");
 const compareBody = document.querySelector("#compareBody");
 const compareNote = document.querySelector("#compareNote");
+const buildVersion = document.querySelector("#buildVersion");
 const exampleButtons = [...document.querySelectorAll(".example-chip")];
 const cards = new Map(
   [...document.querySelectorAll(".result-card")].map((card) => [card.dataset.model, card])
@@ -241,5 +242,20 @@ exampleButtons.forEach((button) => {
 });
 
 window.addEventListener("DOMContentLoaded", () => {
+  loadBuildVersion();
   predict(formulaInput.value);
 });
+
+async function loadBuildVersion() {
+  if (!buildVersion) return;
+  try {
+    const response = await fetch("/api/version");
+    if (!response.ok) throw new Error("版本接口不可用");
+    const info = await response.json();
+    const dirtyMark = info.dirty ? " · 有未提交改动" : "";
+    buildVersion.textContent = `版本 ${info.version}${dirtyMark}`;
+    buildVersion.title = `提交 ${info.commit} · ${info.commit_date || "日期未知"}`;
+  } catch {
+    buildVersion.textContent = "版本信息不可用";
+  }
+}

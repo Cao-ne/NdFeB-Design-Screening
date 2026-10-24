@@ -683,6 +683,12 @@ label {
   letter-spacing: 0.06em;
 }
 
+.build-version {
+  font-family: "Cascadia Code", "Consolas", monospace;
+  color: #46525f;
+  white-space: nowrap;
+}
+
 noscript {
   display: block;
   padding: 18px;
