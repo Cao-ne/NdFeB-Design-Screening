@@ -1,0 +1,10 @@
+﻿file,source_path,rows,columns,bytes,sha256,usage
+nemad_original/ms_nemad_all.csv,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Ms\Database\Ms???????_???_NEMAD.csv,6508,92,2529404,1f29c27c0077a8e843e2c203bf395291dbbe478bd55e45ef76ccb9eba3c12e82,??/??????????????
+nemad_original/ms_nemad_rare_earth.csv,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Ms\Database\Ms???????_????_NEMAD.csv,3457,91,1397028,a665fa82609907799b3a0b70b0af83841cc3bab10f032307b99f172610161ad4,??/??????????????
+nemad_original/ms_nemad_all.xlsx,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Ms\Database\????Ms???_NEMAD.xlsx,,,2659137,01304c09b82c6133957dc2d363035416b9851cd1982fbcc8f8bc059d0cb90c65,??/??????????????
+nemad_original/hcj_nemad_all.csv,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Hcj\DataBase\Hcj??????_???_NEMAD.csv,4467,88,1663403,88475fb9b7350bb5b59152d7c24e1b41d492af4f8ff9721164d517cc0ae791df,??/??????????????
+nemad_original/hcj_nemad_rare_earth.csv,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Hcj\DataBase\Hcj??????_????_NEMAD.csv,2024,87,788990,5b3ee0aa03672f9cc4b6135c05264fdffabddf03518a969a72518552af6cf374,??/??????????????
+nemad_original/hcj_nemad_all.xlsx,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Hcj\DataBase\????Hcj???_NEMAD.xlsx,,,1569986,0e128c464f888b4266e77353134bf15aaa69a0f160ab8ec5af9f2663da180313,??/??????????????
+model_inputs/ms_cleaned.csv,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Ms\outputs\Ms_cleaned.csv,3457,36,1545025,5da7dc016470af651bfb160d0fd2bf5c7cece0572d29b9b517c8d443ebed1abe,??/??????????????
+model_inputs/tc_dataset.csv,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Tc\tc_repm_deliverables\data\tc_dataset.csv,2947,16,511607,f60de4215c87d24241dc27ee0707a45a269e6d059a70d506f0d84880f3cb36ab,??/??????????????
+model_inputs/hcj_cleaned.csv,C:\Users\Administrator\Desktop\02_Devs\Basis_Of_AI_Teamwork\Hcj\outputs\Hcj_cleaned.csv,2024,38,850715,02dfd40a2f76ee3d1476ea77fa1030884b64f74d096cb7a89d707dcd9ca88758,??/??????????????

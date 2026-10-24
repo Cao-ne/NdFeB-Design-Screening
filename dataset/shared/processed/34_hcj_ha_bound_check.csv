@@ -1,0 +1,22 @@
+﻿check_type,formula,ha_kA_m,ha_T,value_kA_m,value_source,ME,margin_kA_m,status,ha_n_records,ha_max_over_min,ha_sources,temp_note,note
+observed,Nd2Fe14B,6445.78,8.1,1185.7,NEMAD plausible/borderline 中位数,0.184,5260.08,within_bound,5,1.71,NEMAD/processed/hcj_cleaned.csv|Papers/1508.07792_Ce取代Nd2Fe14B单晶生长与表征.pdf|Papers/2312.02475_ML预测永磁体矫顽力.pdf,含室温记录,n_Hcj=14；Ha 口径=RT
+observed,Sm2TiFe7,5713.66,7.18,2868.77,NEMAD plausible/borderline 中位数,0.5021,2844.89,within_bound,2,1.234,NEMAD/processed/hcj_cleaned.csv,含室温记录,n_Hcj=2；Ha 口径=RT
+observed,SmCo5,24867.96,31.25,1352.82,NEMAD plausible/borderline 中位数,0.0544,23515.14,within_bound,2,1.232,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=5；Ha 口径=measured
+observed,Ce2Fe14B,1553.04,1.952,501.34,NEMAD plausible/borderline 中位数,0.3228,1051.7,within_bound,1,1.0,Papers/2312.02475_ML预测永磁体矫顽力.pdf,温度未对齐,n_Hcj=3；Ha 口径=computed
+observed,CeTiFe11,5570.42,7.0,953.64,NEMAD plausible/borderline 中位数,0.1712,4616.78,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,部分同温,n_Hcj=2；Ha 口径=measured
+observed,Ho2Fe17,33820.43,42.5,11.94,NEMAD plausible/borderline 中位数,0.0004,33808.49,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,部分同温,n_Hcj=1；Ha 口径=measured
+observed,PrCo5,13528.17,17.0,681.18,NEMAD plausible/borderline 中位数,0.0504,12846.99,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=1；Ha 口径=measured
+observed,LuCo3,8514.79,10.7,1798.45,NEMAD plausible/borderline 中位数,0.2112,6716.34,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,部分同温,n_Hcj=1；Ha 口径=measured
+observed,Nd6AlFe3,6366.2,8.0,280.26,NEMAD plausible/borderline 中位数,0.044,6085.94,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=8；Ha 口径=measured
+observed,Sm1Fe10.5Mo1.5,7957.75,10.0,355.31,NEMAD plausible/borderline 中位数,0.0446,7602.44,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=2；Ha 口径=measured
+observed,Sm2Fe17N3,20690.14,26.0,986.76,NEMAD plausible/borderline 中位数,0.0477,19703.38,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=2；Ha 口径=measured
+observed,Sm2Co17,5172.54,6.5,1074.3,NEMAD plausible/borderline 中位数,0.2077,4098.24,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=4；Ha 口径=measured
+observed,SmTiFe11,13607.75,17.1,390.0,NEMAD plausible/borderline 中位数,0.0287,13217.75,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=3；Ha 口径=measured
+observed,Tb11In9Ni4,5252.11,6.6,342.18,NEMAD plausible/borderline 中位数,0.0652,4909.93,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=1；Ha 口径=measured
+observed,Tb2AlCo2,5729.58,7.2,3819.72,NEMAD plausible/borderline 中位数,0.6667,1909.86,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=2；Ha 口径=measured
+observed,YCo5,10345.07,13.0,143.24,NEMAD plausible/borderline 中位数,0.0138,10201.83,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,温度未对齐,n_Hcj=1；Ha 口径=measured
+design,Nd2Fe14B,6445.78,8.1,626.5,27_hcj_imputed_design_space 预测,0.0972,5819.28,within_bound,5,1.71,NEMAD/processed/hcj_cleaned.csv|Papers/1508.07792_Ce取代Nd2Fe14B单晶生长与表征.pdf|Papers/2312.02475_ML预测永磁体矫顽力.pdf,预测按室温口径；Ha 口径见 note,hard_family=2:14:1；Ha 口径=RT；trust=True
+design,Ce2Fe14B,1553.04,1.952,371.6,27_hcj_imputed_design_space 预测,0.2393,1181.44,within_bound,1,1.0,Papers/2312.02475_ML预测永磁体矫顽力.pdf,预测按室温口径；Ha 口径见 note,hard_family=2:14:1；Ha 口径=computed；trust=True
+design,Pr2Fe14B,5968.31,7.5,289.3,27_hcj_imputed_design_space 预测,0.0485,5679.01,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,预测按室温口径；Ha 口径见 note,hard_family=2:14:1；Ha 口径=measured；trust=True
+design,Ho2Fe14B,7321.13,9.2,232.1,27_hcj_imputed_design_space 预测,0.0317,7089.03,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,预测按室温口径；Ha 口径见 note,hard_family=2:14:1；Ha 口径=measured；trust=True
+design,La(Fe2B)6,5689.79,7.15,0.8,27_hcj_imputed_design_space 预测,0.0001,5688.99,within_bound,1,1.0,NEMAD/processed/hcj_cleaned.csv,预测按室温口径；Ha 口径见 note,hard_family=2:17；Ha 口径=measured；trust=True

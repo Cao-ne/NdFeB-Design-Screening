@@ -1,0 +1,368 @@
+﻿source_pdf,page,table_index,row_index,n_cols,cells,is_magnetic_table,magnetic_units,has_property_word,mentions_Nd_Fe,mentions_NdFeB
+1906.08534_Sanvito_ML预测铁磁体居里温度.pdf,1,1,1,6,B | C | N | O | F | ,False,,,False,False
+1906.08534_Sanvito_ML预测铁磁体居里温度.pdf,1,1,2,6,Al | Si | P | S | Cl | ,False,,,False,False
+1906.08534_Sanvito_ML预测铁磁体居里温度.pdf,1,1,3,6,rMnFe Co Ni CuZnGa | Ge | As | Se | Br | ,False,,,False,False
+1906.08534_Sanvito_ML预测铁磁体居里温度.pdf,1,1,4,6,o RuRh Pd AgCd In | Sn | Sb | Te | I | ,False,,,False,False
+1906.08534_Sanvito_ML预测铁磁体居里温度.pdf,1,1,5,6,ReOs Ir Pt AuHg Tl | Pb | Bi |  |  | ,False,,,False,False
+1906.08534_Sanvito_ML预测铁磁体居里温度.pdf,1,1,7,6,d SmEuGdTbDyHo | Er | Tm | Yb | Lu | ,False,,,False,False
+1906.08534_Sanvito_ML预测铁磁体居里温度.pdf,1,1,8,6,NpPu Cm |  |  |  |  | ,False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,5,1,10,11, |  |  |  |  |  |  |  |  | PPaMra | ,False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,5,2,9,11, |  |  |  |  |  |  |  | PPaMra |  | ,False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,5,3,7,11, |  |  |  |  |  |  |  | PPMara |  | ,False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,5,4,8,11, |  |  |  |  |  |  |  | PPMara |  | ,False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,5,5,8,10, |  |  |  |  |  |  |  | PPaMra | ,False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,11,1,0,2,Compound | Atoms,False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,11,1,1,2,"UO2 | U = 4, O = 8",False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,11,1,2,2,"U3O8 | U = 6, O = 16",False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,11,1,3,2,"UO3 | U = 2, O = 6",False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,11,1,4,2,"UX(X=N,C,P,As) | U = 4, X = 4",False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,11,1,5,2,"UX2(X=P,Bi,Sb) | U = 2, X = 4",False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,11,1,6,2,"U3P4 | U = 12, P = 16",False,,,False,False
+1907.10587_ML预测锕系镧系化合物磁矩与磁有序.pdf,11,1,7,2,"UCl3 | U = 2, Cl = 6",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,5,1,0,4, | required properties | materials | applications,False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,5,1,1,4,permanent magnets | high anisotropy large M r high coercivity H c low permeability high Curie temperature | AlNiCo Ferrite Sm-Co Nd-Fe-B | power generation electric motor robotics,True,,coerciv; curie,True,True
+2008.12907_高通量DFT磁性材料设计综述.pdf,5,1,2,4,soft magnets | low anisotropy large M s high permeability small coercivity low hysteresis low eddy current losses | Fe-Si low-carbon steel Fe-Co | transformer core inductor magnetic field shield,True,,coerciv,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,5,1,3,4,MSMA | magnetic phase transition structural reorientation | Ni-Mn-Ga | vibration damper actuator sensor energy harvester,False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,5,1,4,4,"magnetocaloric materials | large temperature change ∆T minimal hysteresis mechanical stability | La-Fe-Si Ni-Mn-X Gd (Si,Ge) 5 4 | magnetic refrigeration",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,5,1,5,4,spintronics | strong spin polarization efficient spin injection long spin diffusion length controllable interfaces high ordering temperature | HMs DMS | sensor MRAM spin transistor,False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,5,1,6,4,magnetic storage | medium coercivity large signal-to-noise ratio short writing time 10−9s long stability time 10 years | Co-Cr FePt | hard disks,True,,coerciv,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,19,1,0,4, | spin transport | spin-orbit torque | spin pumping,False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,19,1,1,4, | spin current253 | SOT in NM|FM bilayers254 | spin pumping in FM|NM bilayers255,False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,19,1,2,4,"FM metal | review256 | Pt|Co257,258 Ta|CoFeB258,261 SrIrO |NiFe263 (oxides) 3 WTe |NiFe265 (out-of-plane) 2 NiMnSb266 (bulk) | NiFe|Pt255,259,260 NiFe|GaAs262 (metal|semiconductor) NiFe|YIG264 (metal|insulator)",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,19,1,3,4,"FM insulator | YIG267 | GaMnAs|Fe268 GaMnAs270 (bulk) | GaMnAs|GaAs269 YIG|Pt253,271",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,19,1,4,4,"AFM metal |  | IrMn|CoFeB272 IrMn|NiFe274 MnPt|Co/Ni275,276 Mn Ir|NiFe277 3 CuMnAs278 (bulk) Mn Au279,280 (bulk) 2 | NiFe|IrMn273",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,19,1,5,4,"AFM insulator | Cr O 281 2 3 Fe O 287 2 3 | Pt|NiO282–284 Pt|TmIG288 Bi Se |NiO|NiFe290 2 3 | YIG|NiO285,286 YIG|CoO289",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,22,1,0,4,compounds | phase | space group | measurements,False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,22,1,1,4,"Cr (Bi Sb ) Te 0.15 0.1 0.9 1.85 3 Ba Cr O 2 7 14 MnBi Te 2 4 EuSn P 2 2 EuIn As 2 2 EuSn As 2 2 FeSe monolayers | QAHI QAHI AFM TI AFM TI AFM axion AFM TI 2D AFM TI | R¯3m R¯3m R¯3m R¯3m P6 /mmc 3 R¯3m P4/nmm (bulk) | transport at 30 mK347 DFT348 DFT+ARPES349 ARPES350 DFT,351 ARPES352,353 DFT+ARPES354 DFT+ARPES+STS355",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,22,1,2,4,"HgCr Se 2 4 Co MnGa 2 EuCd As 2 2 GdPtBi YbPtBi Co Sn S 3 2 2 Mn Sn 3 Fe Sn 3 2 (Y/RE) Ir O 2 2 7 CeAlGe | FM Weyl FM Weyl/nodal-line ideal Weyl AFM Weyl AFM Weyl FM Weyl AFM Weyl FM Weyl AFM Weyl/axion TI Weyl | Fd¯3m Fm¯3m P¯3m1 F¯43m F¯43m R¯3m P6 /mmc 3 R¯3m Fd¯3m I4 md 1 | DFT356,357 DFT,358 ARPES359 DFT+ARPES360+SdH361 DFT+transport362 DFT+ARPES+transport363 DFT+transport364 DFT+APRES365 ARPES,366 STS+QPI367 DFT368 transport369",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,22,1,3,4,"CuMnAs GdSbTe BaFe As 2 2 CaIrO 3 FeSn CaMnBi 2 (Sr/Ba)MnBi 2 EuMnBi 2 YbMnBi 2 | AFM massive Dirac AFM Dirac AFM massless Dirac AFM Dirac AFM massless Dirac AFM massive Dirac AFM massive Dirac AFM massive Dirac AFM massive Dirac | Pnma P4/nmm I4/mmm Pnma P6/mmm P4/nmm I4/mmm I4/mmm P4/nmm | DFT,370,371 transport372 DFT+ARPES373 DFT+Infrared,374 ARPES375 transport+SdH376 DFT+ARPES377,378 ARPES379 DFT+ARPES379,380 transport+SdH381 DFT+ARPES382",False,,,False,False
+2008.12907_高通量DFT磁性材料设计综述.pdf,22,1,4,4,GdAg 2 GdPtTe MnPd 2 | 2D nodal-line AFM nodal-line AFM nodal-line | – P4/nmm Pnma | DFT+ARPES383 DFT+ARPES373 DFT384,False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,13,1,0,5," | x i | (k, q) | Bq k | Bq k,Stevens",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,13,1,1,5,x 0 | 29 K | – | – | –,False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,13,1,2,5,"x 1 | 0.61 | (2, 0) | 18.4 K | 5.8 K",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,13,1,3,5,"x 2 | 0.80 | (4, 4) | 2.9 K | 2.6 K",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,13,1,4,5,"sign(x ) 3 | −1 | (4, 0) | 2.1 K | 0.22 K",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,14,1,0,5," | x i | (k, q) | Bq k | Bq k,Stevens",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,14,1,1,5,x 0 | 39 K | – | – | –,False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,14,1,2,5,"x 1 | 0.19 | (2, 0) | 4.1 K | 1.3 K",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,14,1,3,5,"x 2 | – | (4, 4) | – | –",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,14,1,4,5,"x 3 | −0.32 | (4, 0) | −0.39 K | −0.041 K",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,14,1,5,5,"x 4 | – | (6, 4) | – | –",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,14,1,6,5,"sign(x ) 5 | −1 | (6, 0) | −0.038 K | −2.4 × 10−3 K",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,16,1,0,5," | x i | (k, q) | Bq k | Bq k,Stevens",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,16,1,1,5,x 0 | 57.9 K | – | – | –,False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,16,1,2,5,"x 1 | 0.575 | (2, 0) | 18.0 K | 5.7 K",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,16,1,3,5,"x 2 | 0.269 | (4, 0) | 0.49 K | 0.05 K",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,16,1,4,5,"x 3 | – | (6, 6) | – | –",False,,,False,False
+2011.12911_CNN_晶体场参数反演_稀土磁性.pdf,16,1,5,5,"sign(x ) 4 | −1 | (6, 0) | 0.021 K | 1.3 × 10−3 K",False,,,False,False
+2101.10773_数据驱动发现Co3Mn2Ge无稀土永磁.pdf,18,1,0,3,Contributes | Same spin ω transition | Opposite spin ω transition,False,,,False,False
+2101.10773_数据驱动发现Co3Mn2Ge无稀土永磁.pdf,18,1,1,3,"Uniaxial anisotropy | d −→d 1 xy x2−y2 d −→d 0.25 yz xz | d −→d xz, d −→d 0.25 xy xy yz d −→d z2, d −→d 0.75 xz yz z2 d −→d x2−y2, d −→d 0.25 xz yz x2−y2",False,,,False,False
+2101.10773_数据驱动发现Co3Mn2Ge无稀土永磁.pdf,18,1,2,3,"xy-plane anisotropy | d −→d xz, d −→d 0.25 xy xy yz d −→d z2, d −→d 0.75 xz yz z2 d −→d x2−y2, d −→d 0.25 xz yz x2−y2 | d −→d 1 xy x2−y2 d −→d 0.25 yz xz",False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,3,1,0,8, |  |  | 40% materials 30% all of Proportion 20% 10% |  |  |  | All Magnetic,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,3,1,2,8, |  |  |  |  |  |  | shold,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,3,1,4,8, |  |  |  |  |  |  | ility thre,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,3,1,5,8, |  | shold |  |  |  |  | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,3,1,6,8, |  | thre |  |  |  |  | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,3,1,7,8, |  |  |  |  |  |  | Stab,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,3,1,8,8, |  | bility |  |  |  |  | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,3,1,9,8, |  | Sta |  |  |  |  | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,4,1,0,10, |  |  |  |  |  |  |  |  | All Stable,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,13,1,0,2, | Hyperparameter Value,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,13,1,1,2,General | Starting learning rate 0.001 Patience 25 Learning rate factor 0.5 Batch size 1024,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,13,1,2,2,CGCNN | Site embedding size 100 Bond embedding size 20 Bond Gaussian basis size 10 Maximum bond distance 5.2 Hidden layer size 100 Number of convolution layers 2 Number of output layers 3,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,13,1,3,2,MEGNet | Site embedding size 36 State embedding size 36 Bond embedding size 36 Bond Gaussian basis size 100 Maximum bond distance 5.2 Number of MEGNet layers 3 MEGNet layer hidden size 64 Number of output layers 3 Output layer 1 hidden size 32 Output layer 2 hidden size 16,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,14,1,0,5, |  |  |  | All Magnetic,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,1,0,2,Magnetic moment ( | B/atom),False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,2,0,2,Magnetic moment ( | B/atom),False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,3,0,9,RF |  |  |  |  |  |  |  | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,3,1,9, |  |  |  |  |  |  | RF | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,3,2,9, |  |  |  |  |  |  | CGCNN MEGNet | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,4,0,15,RF |  |  |  |  |  |  |  |  |  |  |  |  |  | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,4,1,15, |  |  |  |  |  |  |  |  |  |  |  |  | RF | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,4,2,15, |  |  |  |  |  |  |  |  |  |  |  |  | CGCNN | ,False,,,False,False
+2111.14712_CGCNN+MEGNet+RF筛选大磁矩材料.pdf,18,4,3,15, |  |  |  | MEGNet |  |  |  |  |  |  |  |  | MEGNet | ,False,,,False,False
+2312.02475_ML预测永磁体矫顽力.pdf,9,1,0,2,Material H (exp) H (XGB) H (ANN ) cH c c c c | ,False,,,False,False
+2312.02475_ML预测永磁体矫顽力.pdf,9,1,1,2,La Fe B 2 14 Ce Fe B 2 14 Pr Fe B 2 14 Nd Fe B 2 14 Gd Fe B 2 14 Tb Fe B 2 14 Dy Fe B 2 14 Ho Fe B 2 14 Lu Fe B 2 14 Y Fe B 2 14 Th Fe B 2 14 La Co B 2 14 Pr Co B 2 14 Nd Co B 2 14 Gd Co B 2 14 Y Co B 2 14 NdLaCeF B 14 LaCeYFe B 14 NdPrFe B 14 Sm Co 2 17 Sm Fe N 2 17 3 SmCo 5 YCo 5 LaCo 5 CeCo 5 PrCo 5 NdCo 5 | 0.52 0.52 0.48 0.53 0.54 0.84 0.73 0.79 1.54 1.59 1.54 1.62 1.24 1.50 1.45 1.56 0.23 0.56 0.52 0.60 2.93 4.00 5.65 5.41 1.70 2.76 3.80 3.70 0.75 1.50 1.76 1.82 0.29 0.59 0.52 0.58 0.19 0.57 0.48 0.54 0.17 0.56 0.48 0.53 0.34 0.65 0.68 0.77 2.50 2.28 2.24 2.36 3.69 1.00 0.90 1.06 0.30 0.67 2.79 2.37 0.34 0.62 0.61 0.71 0.65 1.33 1.25 1.39 0.41 0.99 1.26 1.39 0.80 1.33 1.27 1.39 1.25 1.60 1.53 1.62 2.30 2.46 3.13 2.95 7.50 6.76 6.66 9.70 3.90 2.63 2.68 3.33 5.25 4.18 4.14 4.22 5.70 4.10 5.10 5.17 5.32 4.05 3.81 4.02 0.15 0.12 0.10 0.12,False,,,True,True
+2312.02475_ML预测永磁体矫顽力.pdf,9,1,2,2,RMSE 0.90 1.10 1.10 MAE 0.68 0.78 0.80 | ,False,,,False,False
+2312.02475_ML预测永磁体矫顽力.pdf,11,1,0,9,atom→ Nd(4f) Nd(4g) Fe(16k) Fe(8j) Fe(4e) Fe(4c) B(4g) total U ↓ µ µ µ µ µ µ µ µ µ µ µ µ µ µ µ µ s l s l s l s l s l s l s l st lt |  |  |  |  |  |  |  | ,False,,,True,False
+2312.02475_ML预测永磁体矫顽力.pdf,11,1,1,9, | µ µ s l | µ µ s l | µ µ s l | µ µ s l | µ µ s l | µ µ s l | µ µ s l | µ µ st lt,False,,,False,False
+2312.02475_ML预测永磁体矫顽力.pdf,11,1,2,9,"4 eV -3.26 1.52 -3.28 1.53 2.27,2.36 0.043,0.049 2.29,2.71 0.044 2.03 0.045 2.48 0.054 -0.17 0.00 105.24 14.75 5 eV -3.26 1.52 -3.28 1.53 2.27,2.36 0.042,0.048 2.29,2.70 0.044 2.03 0.045 2.47 0.052 -0.17 0.00 105.25 14.75 7 eV -3.27 1.52 -3.28 1.53 2.27,2.36 0.042,0.048 2.29,2.71 0.042 2.03 0.044 2.48 0.049 -0.17 0.00 105.25 14.68 |  |  |  |  |  |  |  | ",False,,,False,False
+2312.02475_ML预测永磁体矫顽力.pdf,13,1,0,2,Model Hyperparameters | ,False,,,False,False
+2312.02475_ML预测永磁体矫顽力.pdf,13,1,1,2,"Tuned RF | n estimators=1200, max depth=5, random state=1, min samples leaf=3, bootstrap=True, max features=’auto’",False,,,False,False
+2312.02475_ML预测永磁体矫顽力.pdf,13,1,2,2,"Tuned XGB | n estimators=1200, max depth= 5, min weight fraction leaf=0, learning rate=0.007",False,,,False,False
+2312.02475_ML预测永磁体矫顽力.pdf,13,1,3,2,"Tuned XGB n estimators= 1200, max depth= 5, min child weight=0, learning rate=0.007, random state=42 | ",False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,8,1,0,3,Number of Records Database Information Estimated Precision |  | ,False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,8,1,1,3,"6615 | Material name, ∆SM and/or TC. Organic and alloyed materials are included. | 85%",False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,8,1,2,3,"1426 | Material name, ∆SM and/or TC. Only intrinsic inorganic materials are included. | 90%",False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,8,1,3,3,"752 | Material name, ∆SM and TC, and Materials Project ID. | 90%",False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,8,1,4,3,752 Human-corrected version of the 752-record database for machine learning training 99% |  | ,False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,10,1,0,2,Max Ranking / K 10 25 50 | ,False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,10,1,1,2,10 | 1.0 1.0 1.0,False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,10,1,2,2,25 | - 0.96 0.96,False,,,False,False
+2403.02553_LLM数据库_ML磁卡效应材料发现.pdf,10,1,3,2,50 - - 0.96 | ,False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,0,6,"(0,0) He | (0,1) Ne | (0,2) Ar | (0,3) Kr | (0,4) Xe | (0,5) Rn",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,1,6,"(1,0) H | (1,1) Li | (1,2) Na | (1,3) K | (1,4) Rb | (1,5) Cs",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,2,6,"Left Step Periodic Table of Elements (5,1) (4,1) (3,1) (7,1) (6,1) (2,1) Be B C N O F (7,2) (c, r) (5,2) (4,2) (3,2) (6,2) (2,2) Mg Al Si P S Cl El (8,3) (5,3) (17,3) (12,3) (9,3) (3,3) (16,3) (13,3) (4,3) (15,3) (2,3) (11,3) (10,3) (7,3) (6,3) (14,3) Zn Ge V Fe Sc Co Cu Ca Ga Se Br Ti Mn Ni Cr As (9,4) (8,4) (5,4) (17,4) (12,4) (16,4) (13,4) (4,4) (15,4) (3,4) (2,4) (11,4) (10,4) (7,4) (6,4) (14,4) Ag Cd Sn Nb Ru Y Rh Sr In Te I Zr Tc Pd Mo Sb | (2,1) F | (2,2) Cl | (2,3) Br | (2,4) I | (2,5) At",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,3,6," | (3,1) O | (3,2) S | (3,3) Se | (3,4) Te | (3,5) Po",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,4,6," | (4,1) N | (4,2) P | (4,3) As | (4,4) Sb | (4,5) Bi",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,5,6," | (5,1) C | (5,2) Si | (5,3) Ge | (5,4) Sn | (5,5) Pb",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,6,6," | (6,1) B | (6,2) Al | (6,3) Ga | (6,4) In | (6,5) Tl",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,7,6," | (7,1) Be | (7,2) Mg | (7,3) Ca | (7,4) Sr | (7,5) Ba",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,8,6," |  |  | (8,3) Zn | (8,4) Cd | (8,5) Hg",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,9,6," |  |  | (9,3) Cu | (9,4) Ag | (9,5) Au",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,10,6," |  |  | (10,3) Ni | (10,4) Pd | (10,5) Pt",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,11,6," |  |  | (11,3) Co | (11,4) Rh | (11,5) Ir",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,12,6," |  |  | (12,3) Fe | (12,4) Ru | (12,5) Os",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,13,6," |  |  | (13,3) Mn | (13,4) Tc | (13,5) Re",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,14,6," |  |  | (14,3) Cr | (14,4) Mo | (14,5) W",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,15,6," |  |  | (15,3) V | (15,4) Nb | (15,5) Ta",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,16,6," |  |  | (16,3) Ti | (16,4) Zr | (16,5) Hf",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,17,6," |  |  | (17,3) Sc | (17,4) Y | (17,5) Lu",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,18,6," |  |  |  |  | (18,5) Yb",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,19,6," |  |  |  |  | (19,5) Tm",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,20,6," |  |  |  |  | (20,5) Er",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,21,6," |  |  |  |  | (21,5) Ho",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,22,6," |  |  |  |  | (22,5) Dy",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,23,6," |  |  |  |  | (23,5) Tb",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,24,6," |  |  |  |  | (24,5) Gd",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,25,6," |  |  |  |  | (25,5) Eu",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,26,6," |  |  |  |  | (26,5) Sm",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,27,6," |  |  |  |  | (27,5) Pm",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,28,6," |  |  |  |  | (28,5) Nd",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,29,6," |  |  |  |  | (29,5) Pr",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,30,6," |  |  |  |  | (30,5) Ce",False,,,False,False
+2407.18388_CGNN预测拓扑磁性量子材料性质.pdf,4,1,31,6," |  |  |  |  | (31,5) La",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,4,1,0,3,applied to search for more promising ternary Ce-Co-Cu compounds. |  | It should be noted,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,4,1,1,3,that such a CGCNN approach is limited to known structure types in the database. Stable |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,4,1,2,3,structures whose structure motifs are not present in the existing structural databases will |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,4,1,3,3,be missed. If a new compound/composition is found experimentally to be stable but |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,4,1,4,3,"missed by the current algorithm (say a new structure type), then this result changes the |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,4,1,5,3,hull and predictions. |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,12,1,0,3,Ce-Co-Cu ternary compounds. The Fermi level is shifted to zero. |  | The red line represents,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,12,1,1,3,"the projected DOS of Ce f orbitals; the blue line represents the Co d orbitals, and the |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,12,1,2,3,green line represents the Cu d orbitals. |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,0,5,"K. Strnat, G. Hoffer, J. Olson, W. Ostertag, and J. J. Becker, A family of new cobalt |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,1,5,"based permanent |  |  | magnet materials, Journal of Applied Physics 38(3), 1001–1002 | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,2,5,(1967). |  |  |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,3,5,"E. A. Nesbitt, R. H. Willens, R. C. Sherwood, E. Buehler, and J. H. Wernick, New |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,4,5,"permanent magnet |  |  | materials, Applied Physics Letters 12(11), 361–362 (1968). | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,5,5,"J. H. Wernick and S. Geller, Transition element–rare earth compounds with Cu5Ca |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,6,5,"structure, Acta |  | Crystallographica 12(9),662–665 (1959). |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,7,5,"D. Gignoux, F.Givord, R. Lemaire, H. Launois, and F. Sayetat, Valence state of |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,8,5,"cerium in the hexagonal CeM5 compounds with the transition metals, Journal de |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,9,5,"Physique 43, 173–180 (1982). |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,10,5,"E. Bauer, E. Gratz, and C. Schmitzer. CeCu5: Another Kondo lattice showing |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,15,1,11,5,"magnetic order. Journal |  |  |  | of Magnetism and Magnetic Materials 63-64, 37–39 (1987).",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,0,8,"] | R. K. Chouhan and D. Paudyal, Cu substituted CeCo5: New optimal permanent |  |  |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,1,8,magnetic material |  |  |  |  |  |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,2,8,208–212 (2017). |  |  |  |  |  |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,3,8,"] | H. Shishido, T. Ueno, K. Saito, M. Sawada, and M. Matsumoto, Intrinsic coercivity |  |  |  |  |  | ",True,,coerciv,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,4,8,induced by |  |  |  |  |  |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,5,8,(2021). |  |  |  |  |  |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,6,8,"] | D. Girodin, C.H. Allibert, F. Givord, and R. Lemaire, Phase equilibria in the CeCo5- |  |  |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,7,8,"CeCu5 system |  |  |  |  | and structural characterization of the Ce(Co1−xCux)5 phases, Journal |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,8,8,"of the Less Common Metals |  |  |  |  |  |  | 110(1), 149–158 (1985).",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,9,8,"] | F. Meyer-Liautaud, Souad Derkaoui, C.H. Allibert, and R. Castanet, Structural and |  |  |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,10,8,"thermodynamic |  |  |  |  |  | data on the pseudobinary phases R(Co1−xCux)5 with R = Sm, Y, Ce. | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,11,8,"Journal of the Less Common |  |  |  |  |  |  | Metals 127, 231–242 (1987).",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,12,8,"] | M. Matsumoto, Magnetism trends in doped Ce-Cu intermetallics in the vicinity of |  |  |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,13,8,quantum |  |  | criticality: Realistic Kondo lattice models based on dynamical mean-field |  |  |  | ,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,16,2,14,8,"theory, Phys. Rev. Materials 4, 054401 (2020). |  |  |  |  |  |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,18,1,0,3,"] | R. A. Neifeld, M. Croft, T. Mihalisin, C. U. Segre, M. Madigan, M. S. Torikachvili, | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,18,1,1,3,"M. B. Maple, and L. E. DeLong, Chemical environment and Ce valence: Global |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,18,1,2,3,"trends in transition-metal compounds, Phys. Rev. B 32, 6928(R) (1985). |  | ",False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,0,2, | Phases Symmetry a (Å) b (Å) c (Å) E f (meV/atom),False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,1,2,Existing stable phases | Ce C2/m 5.77 5.77 3.32 0 Co P6 /mmc 2.49 2.49 4.02 0 3 Cu Fm-3m 3.62 3.62 3.62 0 CeCo Fd-3m 7.07 7.07 7.07 0 2 Ce Co R-3m 8.36 8.36 12.16 0 2 17 CeCu Imma 4.40 6.64 7.35 0 2 CeCu P2 /c 5.03 8.06 10.10 0 6 1,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,2,2,ML+DFT predicted stable phase | Ce Co Cu Cmcm 5.33 5.33 5.33 0 3 3,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,3,2, | CeCoCu Pnma 7.44 6.95 4.96 0 2,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,4,2, | Ce Co Cu I4/mcm 11.50 11.50 12.81 0 12 7,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,5,2, | Ce Co Cu Iba2 11.01 11.74 12.73 0 11 9,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,6,2, | Ce Co Cu C2/m 10.0 4.32 20.25 0 10 11 4 7,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,7,2,Existing low-energy phases | Ce Co Cu P-3m1 8.36 8.36 8.12 5 2 16,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,8,2, | CeCo Cu P-6m2 4.93 4.93 4.04 24 4,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,9,2, | CeCo Cu P6/mmm 4.94 4.94 4.02 38 3 2,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,10,2, | Ce Co Cu Pmmm 4.10 4.88 8.46 44 2 5 5,False,,,False,False
+2502.04130_ML_Ce-Co-Cu三元化合物.pdf,20,1,11,2,ML+DFT predicted low- energy phases | CeCoCu P4/nmm 3.62 3.62 7.67 8 Ce4Co3Cu31 P1 6.40 6.45 12.86 16 Ce2CoCu4 P4/nmm 6.89 6.89 4.88 18 CeCoCu2 Pnma 7.23 6.96 4.98 21 Ce3(CoCu2) P-62m 6.81 6.81 3.85 22 2 Ce4CoCu2 P2 1/c 9.18 6.39 20.34 23 _ Ce4Co31Cu3 P1 6.29 6.30 12.59 25 Ce3Co2Cu P-4m2 4.18 4.18 6.46 26 15.5 Ce3(CoCu)2 Pnma 4.64 7.16 26 5 Ce16Co10Cu P-4 8.41 8.41 8.26 27 Ce2CoCu16 P-3m1 8.60 8.60 8.16 27 Ce4CoCu3 Pmm2 3.31 4.49 10.15 27 CeCoCu P2 1/c 5.90 4.92 7.57 28 _ Ce4Co3Cu5 P-6m2 5.17 5.17 8.29 30 Ce4CoCu7 P-3m1 5.13 5.13 8.72 30 Ce4CoCu33 P3m1 8.50 8.50 8.21 30 Ce2CoCu3 P6 3/mmc 5.01 5.01 9.03 31 _ Ce2CoCu16 P-3m1 8.52 8.52 8.14 33 CeCoCu Pnma 6.59 4.52 6.91 34,False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,0,7,System | M S [T] |  | H C [A/cm] | Moment [T] | Density [g/cc] | Bulk Moduli [Mbar],True,flux density(T),,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,1,7, | ML | Expt. | ML |  |  | ,False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,2,7,"ML prediction, DFT and experimental validation |  |  |  |  |  | ",False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,3,7,Fe Si B 98 1 1 | 1.81 | 2.09 | 301 | 2.04 | 7.78 | 188,False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,4,7,Fe Si B 90 5 5 | 1.79 | 2.01 | 348 | 1.81 | 6.36 | 198,False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,5,7,Fe Si B 80 10 10 | 1.57 | 1.54 | 333 | 1.54 | 5.34 | 122,False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,6,7,Predictions |  |  |  |  |  | ,False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,7,7,Fe Si B Cu 85 10 4 1 | 1.68 |  | 290 | 1.65 | 5.91 | 186,False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,8,7,Fe Si B Zr 84 10 4 2 | 1.60 |  | 320 | 1.67 | 5.56 | 241,False,,,False,False
+2504.19787_可解释ML设计Fe基软磁合金.pdf,15,1,9,7,Fe Si B Nb 84 10 4 2 | 1.44 |  | 330 | 1.63 | 5.92 | 198,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,0,8,Formula | Space group | Z | Lattice parameters (Å) |  |  | J (T) s | K (MJ/m3) 1,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,1,8, |  |  | a | b | c |  | ,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,2,8,Fe₈CoZr₃ (Fig. 5(a)) | P6₃/mmc | 2 | 4.885 | 4.885 | 15.991 | 1.14 | -1.2,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,3,8,Fe₈CoZr₃ (Fig. 5(b)) | R-3m | 3 | 4.888 | 4.888 | 24.047 | 1.16 | -0.63,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,4,8,Fe₁₁CoZr₆ (Fig. 5(c)) | P6₃/mcm | 2 | 8.585 | 8.585 | 8.125 | 0.92 | 2.25,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,5,8,FeCo₅Zr₁₂ (Fig. 5(d)) | C222 | 2 | 5.345 | 9.092 | 13.568 | 0 | 0,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,6,8,FeCo₇Zr₄ (Fig. 5(e)) | P-3m1 | 1 | 4.914 | 4.914 | 7.926 | 0.15 | -1.11,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,7,8,FeCo₅Zr₅ (Fig. 5(f)) | Cmcm | 4 | 3.758 | 9.295 | 20.085 | 0.18 | 0.12,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,8,8,Fe₇Co₁₆Zr₆ (Fig. 5(g)) | C2/m | 2 | 14.048 | 8.147 | 8.164 | 1.05 | 0.05,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,9,8,Fe₆Co₁₇Zr₆ (Fig. 5(h)) | Immm | 2 | 8.158 | 8.167 | 11.59 | 1.02 | 0.60,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,9,1,10,8,Fe₂Co₂₁Zr₆ (Fig. 5(i)) | Immm | 2 | 8.145 | 8.16 | 11.48 | 0.93 | -0.26,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,0,5,Atom | Site | # Multiplicity | K (meV) SOC | Moment (μB),False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,1,5,Zr | n | 8 | 0.064 | -0.293,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,2,5,Zr | j | 4 | -0.078 | -0.294,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,3,5,Fe | k | 8 | 0.420 | 2.345,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,4,5,Fe | a | 2 | -0.788 | 2.349,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,5,5,Fe | b | 2 | 0.020 | 2.687,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,6,5,Co | l1 | 8 | 0.008 | 1.177,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,7,5,Co | l2 | 8 | -0.065 | 1.313,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,8,5,Co | m1 | 8 | 0.286 | 1.184,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,9,5,Co | m2 | 8 | 0.214 | 1.320,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,1,10,5,Co | c | 2 | -0.736 | 1.433,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,2,0,5,Atom | Site | # Multiplicity | K (meV) SOC | Moment (μB),False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,2,1,5,Zr | h | 8 | 0.129 | -0.284,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,2,2,5,Zr | e | 4 | -0.121 | -0.282,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,2,3,5,Fe | f | 8 | 0.539 | 2.342,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,2,4,5,Fe | b | 2 | 0.035 | 2.669,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,12,2,5,5,Co | n1 | 8 | 0.162 | 1.188,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,13,1,0,5,Co | n2 | 8 | 0.029 | 1.298,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,13,1,1,5,Co | n3 | 8 | 0.246 | 1.187,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,13,1,2,5,Co | n4 | 8 | 0.207 | 1.299,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,13,1,3,5,Co | c1 | 2 | 0.401 | 1.436,False,,,False,False
+2506.22627_ML_Fe-Co-Zr磁体设计.pdf,13,1,4,5,Co | c2 | 2 | -0.546 | 1.436,False,,,False,False
+2506.23615_GNN预测硬磁微结构矫顽力.pdf,9,1,0,7,"Node Features Layer  f .1 ., .1 . .. .. f1 ..,1 .2  f .1 ., .1 . .. .. f1 ., .M ′ .  . .  Embedding fN,1 ... fN,12 fN,1 ... fN,M ′ N × 12 N × M ′ vi Edge Features e1,1 ... e1,N eij ... ... ...  eN,1 ... eN,N N × N × 1 Adjacency Matrix A1,1 ... A1,N  ... ... ...  AN,1 ... AN,N N × N | Graph Convolutional Layer |  | Node-level Fully Connected Layer | Layer  f .1 ., .1 . .. .. . f1 ., .M . ′′  f1,1 ... f1,M ′′ Pooling fN,1 N . ×.. Mf ′N ′,M ′′ 1 × M ′′ Global |  | Hc",False,,,False,False
+2506.23615_GNN预测硬磁微结构矫顽力.pdf,9,1,1,7, |  |  |  |  | Final Fully Connected Layer | ,False,,,False,False
+2506.23615_GNN预测硬磁微结构矫顽力.pdf,16,1,1,3, |  | Confidence Curve,False,,,False,False
+2506.23615_GNN预测硬磁微结构矫顽力.pdf,16,1,2,3, |  | Oracle Curve,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,1,0,12,"83, |  | 355 |  |  |  |  |  |  |  |  | ",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,1,2,12," |  |  | 56, |  | 688 |  |  |  |  |  | ",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,1,4,12," |  |  |  |  |  | 11, |  | 345 |  |  | ",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,1,5,12," |  |  |  |  |  |  |  |  | 3,4 |  | 15",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,2,0,4,Distribution of band_gap in MP FM 104 NM FiM scale) 103 AFM (log 102 Count 101 100 0 1 2 3 4 5 band_gap |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,2,1,4, |  | 1 2 3 band_gap | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,2,2,4, |  | (a) | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,2,3,4,103 scale) 102 (log Count 101 100 |  | Distribution of density | in MP FM NM FiM AFM 15,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,2,5,4, |  | 5 10 density | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,3,0,2,Distribution of vbm in MP 103 scale) 102 (log 101 FM Count NM FiM 100 AFM 2.5 0.0 2.5 5.0 7.5 vbm | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,3,1,2,(b) | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,3,2,2,Distribution of den 104 scale) 103 (log 102 Count 101 100 0 50 1 density | sity_atomic in MP FM NM FiM AFM 00 150 200 _atomic,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,4,0,12," |  |  | 41, |  | 866 |  |  |  |  |  | ",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,4,2,12," |  |  |  |  |  | 10, |  | 898 |  |  | ",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,3,4,3,12," |  |  |  |  |  |  |  |  | 3,3 |  | 60",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,4,1,0,5,"1,207 |  |  |  | ",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,4,1,2,5, |  | 851 |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,4,1,7,5,86 23 |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,4,2,0,5,"1,094 1,073 |  |  |  | ",False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,5,1,0,23, |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Accuracy | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,5,1,1,23, |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Accuracy | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,5,1,2,23, |  |  |  |  | 0.80 |  |  |  |  |  | 0.84 |  |  | 0.82 |  |  | 0.85 |  |  |  | Macro-F1 | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,5,1,7,23, |  | 0.75 |  |  |  |  |  | 0.76 0.61 |  |  |  |  |  | 0.62 |  |  | 0.66 |  |  |  | 0.63 | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,5,1,10,23,0.40 |  |  |  |  | 0.57 |  |  |  |  |  | 0.55 |  |  |  |  |  |  |  |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,5,1,13,23, |  | 0.26 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,2,0,5,2 | 61 2 | 42 2 | 8 1 | 6,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,2,1,5,(47. 3 | 7%) (44. 22 47 | 2%) (5. 56 4 | 1%) (2. 57 2 | 9%) 31,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,2,2,5,(5. 3 | 6%) (82. 1 3 | 5%) (7. 88 3 | 9%) (4. 86 1 | 0%) 7,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,2,3,5,(3. 1 | 8%) (47. 2 2 | 2%) (47. 29 6 | 0%) (2. 0 38 | 1%) 06,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,2,4,5,(0. | 3%) (5. | 6%) (1. | 5%) (92. | 7%),False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,3,0,3,68 | 50 28 | 5,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,3,1,3,(96. 30 | 0%) (4. 7 38 | 0%) 00,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,3,2,3,(7. | 5%) (92. | 5%),False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,4,0,4,38 | 25 1 | 1 2 | 71,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,4,1,4,(93. 1 | 1%) (0. 4 2 | 3%) (6. 63 2 | 6%) 70,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,4,2,4,(2. 2 | 6%) (48. 40 3 | 1%) (49. 67 59 | 4%) 81,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,4,3,4,(3. | 6%) (5. | 6%) (90. | 8%),False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,5,0,4,193 | .05 3. | 15 13. | 75,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,5,1,4,(91. 3. | 95%) (1.5 30 121 | 0%) (6.5 .05 55. | 5%) 05,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,5,2,4,(1.8 15. | 4%) (67. 75 48. | 47%) (30. 25 147 | 69%) .90,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,7,5,3,4,(7.4 | 3%) (22. | 77%) (69. | 80%),False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,9,4,0,3,7 | 4 8 | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,9,4,1,3,(90. 1 | 2%) (9. 6 25 | 8%) 0,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,9,4,2,3,(6. | 0%) (94. | 0%),False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,9,5,0,3,7 | 2 1 | 0,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,9,5,1,3,(87. 1 | 8%) (12. 7 24 | 2%) 9,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,9,5,2,3,(6. | 4%) (93. | 6%),False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,10,1,1,3,90. | 24% 9.7 | 6%,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,10,1,2,3,6.0 | 2% 93. | 98%,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,10,2,1,3,69. | 75% 30. | 25%,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,10,2,2,3,20. | 84% 79. | 16%,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,11,1,2,8, |  |  |  |  |  |  | 49.9%,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,11,1,4,8, |  | 8 | .6% |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,11,1,6,8, |  |  | 1% |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,11,1,8,8, |  |  | % |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,11,1,10,8, | 5.5% |  |  |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,11,1,12,8, | 5.4% |  |  |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,11,1,14,8, | 4.7% |  |  |  |  |  | ,False,,,False,False
+2509.05909_ML磁有序分类_MAGNDATA高通量筛选.pdf,11,1,16,8, | 4.3% |  |  |  |  |  | ,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,1,0,6,1.00 | 0.62 | 0.57 | -0.20 | 0.75 | 0.91,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,1,1,6, | 1.00 | 0.58 | 0.21 | 0.54 | 0.56,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,1,2,6, |  | 1.00 | 0.49 | 0.76 | 0.66,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,1,3,6, |  |  | 1.00 | 0.03 | -0.14,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,1,4,6, |  |  |  | 1.00 | 0.87,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,1,5,6, |  |  |  |  | 1.00,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,2,0,6,1.00 | 0.62 | 0.63 | -0.11 | 0.68 | 0.97,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,2,1,6, | 1.00 | 0.61 | 0.24 | 0.52 | 0.63,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,2,2,6, |  | 1.00 | 0.65 | 0.82 | 0.75,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,2,3,6, |  |  | 1.00 | 0.34 | 0.02,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,2,4,6, |  |  |  | 1.00 | 0.81,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,3,2,5,6, |  |  |  |  | 1.00,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,4,1,4,6, |  |  |  | hard | ,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,4,1,5,6, |  |  |  | hard | ,False,,,False,False
+2607.29249_超越Stoner-Wohlfarth_硬磁ML模型.pdf,4,1,6,6, |  |  |  | soft = 1/ 6 | ,False,,,False,False
+2608.17200_ML_Y-Mn-B磁性化合物.pdf,12,1,0,9,Compound | Space group | Z | Lattice parameters (Å) |  | Ehull |  | Js (T) | Magnetic ground state,False,,,False,False
+2608.17200_ML_Y-Mn-B磁性化合物.pdf,12,1,1,9, |  |  |  |  | (meV/atom) |  |  | ,False,,,False,False
+2608.17200_ML_Y-Mn-B磁性化合物.pdf,12,1,2,9,"Y2Mn7B7 | Pccn | 8 | a = 7.0287, b = 7.0288, c = 27.6678 | 0 |  |  | 0.6 | FM",False,,,False,False
+2608.17200_ML_Y-Mn-B磁性化合物.pdf,12,1,3,9,"YMn4B4 | P4₂/n | 2 | a = b = 7.0181, c = 3.9240 | 10 |  |  | 0.6 | FM",False,,,False,False
+2608.17200_ML_Y-Mn-B磁性化合物.pdf,12,1,4,9,"Y5(MnB3)2 | R-3m | 3 | a = b = 5.4432, c = 23.0074, γ = 120° | 0 |  |  | 0 | AFM",False,,,False,False
+2608.17200_ML_Y-Mn-B磁性化合物.pdf,12,1,5,9,"Y(MnB3)2 | Immm | 2 | a = 3.0913, b = 6.3158, c = 8.2514 | 0 |  |  | 0 | AFM",False,,,False,False
+2608.17200_ML_Y-Mn-B磁性化合物.pdf,12,1,6,9,Y2Mn25B | Fm-3 | 4 | a = b = c = 11.0260 | 0 |  |  | 0.2 | FiM,False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,1,1,16," |  |  |  |  |  |  |  |  |  |  | RFe2 RFe5 | (cF (hP | 24, 2 6, 19 | 27) 1) | ",False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,1,2,16," |  |  |  |  |  |  |  |  |  |  | R2Fe R2Fe | 7 (h 7 (h | R18, P36, | 166 194) | )",False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,1,3,16," |  |  |  |  |  |  |  |  |  |  | R2Fe R2Fe | 17 (h 17 (h | R19 P38, | , 166 194 | ) )",False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,2,1,16," |  |  |  |  |  |  |  |  |  |  | RCo2 RCo5 | (cF (hP | 24, 2 6, 19 | 27) 1) | ",False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,2,2,16," |  |  |  |  |  |  |  |  |  |  | R2Co R2Co R2Co | 7 (h 7 (h 17 (h | R18, P36, R19 | 166 194) , 166 | ) )",False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,2,3,16," |  |  |  |  |  |  |  |  |  |  | R2Co | 17 (h | P38, | 194 | )",False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,3,0,16," |  |  |  |  |  |  |  |  |  |  | RNi2 RNi5 | (cF (hP | 24, 2 6, 19 | 27) 1) | ",False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,3,1,16," |  |  |  |  |  |  |  |  |  |  | R2Ni R2Ni | 7 (h 7 (h | R18, P36, | 166 194) | )",False,,,False,False
+2608.25270_高通量_稀土过渡族磁性合金.pdf,3,3,2,16," |  |  |  |  |  |  |  |  |  |  | R2Ni R2Ni | 17 (h 17 (h | R19 P38, | , 166 194 | ) )",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,0,7,Protocol | Target | n test | Test records with shared composition | R² | MAE | RMSE,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,1,7,All-feature random | T (K) C | 348 | 172 | 0.739 | 83.152 | 141.568,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,2,7,All-feature random | log₁₀ H c | 348 | 172 | 0.671 | 0.498 | 0.716,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,3,7,Composition random | T (K) C | 343 | 150 | 0.714 | 93.195 | 146.926,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,4,7,Composition random | log₁₀ H c | 343 | 150 | 0.650 | 0.513 | 0.731,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,5,7,Grouped reference | T (K) C | 358 | 0 | 0.327 | 120.063 | 203.923,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,6,7,Grouped reference | log₁₀ Hc | 358 | 0 | 0.648 | 0.597 | 0.849,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,7,7,"Grouped, 20 repeats | T (K) C | 347 (mean) | 0 | 0.601 ± 0.080 | 113.953 ± 13.213 | 177.804",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,8,7,"Grouped, 20 repeats | log₁₀ H c | 347 (mean) | 0 | 0.589 ± 0.069 | 0.591 ± 0.051 | 0.835",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,9,7,"Grouped, pooled predictions | T (K) C | 6936 | 0 | 0.602 | 114.138 | —",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,11,1,10,7,"Grouped, pooled predictions | log₁₀ H c | 6936 | 0 | 0.593 | 0.590 | —",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,12,1,0,5,Descriptor set (features) | Target | Held-out R² | MAE | Times selected,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,12,1,1,5,Elemental fractions (79) | T (K) C | 0.600 ± 0.062 | 113.604 | 5 / 20,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,12,1,2,5,Elemental fractions (79) | log₁₀ H c | 0.587 ± 0.082 | 0.581 | 12 / 20,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,12,1,3,5,Weighted elemental statistics (146) | T (K) C | 0.608 ± 0.067 | 111.481 | 2 / 20,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,12,1,4,5,Weighted elemental statistics (146) | log₁₀ H c | 0.557 ± 0.083 | 0.606 | 4 / 20,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,12,1,5,5,Both (225) | T (K) C | 0.630 ± 0.062 | 108.185 | 13 / 20,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,12,1,6,5,Both (225) | log₁₀ H c | 0.565 ± 0.081 | 0.601 | 4 / 20,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,18,1,0,7,System | Target | Target source | Partition | Exact composition grouping | Reported R² | Paper,False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,18,1,1,7,"Fe-based nanocrystalline | H , M , c s λ s | experiment | 20-fold CV, random | - | reported graphically | Wang et al. 2020 [43]",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,18,1,2,7,Fe–Si–Al ternary | H and c others | experiment | 85:15 random | - | 0.935 (H ) c | Milyutin et al. 2024 [32],False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,18,1,3,7,"Fe-based soft magnets | M , H s c | experiment | random with CV | - | 0.86 / 0.76 | Nachnani et al. 2025 [29]",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,18,1,4,7,"soft magnetic HEAs | phase, B₀, M, T C | DFT | 80:20 random | - | 0.921–0.987 | Dai et al. 2025 [30,31]",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,18,1,5,7,"general ferromagnets | T C | Compiled data | 80:20 random, 5-fold CV | - | 0.66 / 0.87– 0.91 | Abedi Orang et al. 2026 [33]",False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,18,1,6,7,superconductors | log Tc | experiment | random vs leave-one- cluster-out | Chemical clusters | 0.87 vs 0.30 | Meredig et al. 2018 [34],False,,,False,False
+2610.03171_矫顽力感知_无稀土软磁合金.pdf,18,1,7,7,"compiled magnetic materials | T , C log₁₀ H c | Compiled labels | composition- grouped, 20 repeats | Yes (exact compositions) | 0.601 ± 0.080 / 0.589 ± 0.069 | This work",False,,,False,False
+JMCA_贝叶斯自适应学习_NdFeB低成本成分优化.pdf,1,1,1,3,PA | PER View Article Onlin View Journal | e,False,,,False,False
+NatMachIntell_xDeepH深度学习磁超结构电子结构.pdf,2,1,1,6," |  |  | Equivariance with r | espect to E(3) × {I, } | ",False,,,False,False
+NatMachIntell_xDeepH深度学习磁超结构电子结构.pdf,4,1,1,2,E3Linear (Ux) ⊗ (Vy) Non-linearity MLP ∑ (vertex update) E3Linear E3LayerNorm + | ,False,,,False,False
+NatMachIntell_xDeepH深度学习磁超结构电子结构.pdf,4,4,0,3,MLP Aggregation Interaction |  | ,False,,,False,False
+PRMater_无稀土磁性材料数据库_Ames实验室.pdf,8,1,0,2,MP (110 entries) AGA (85 entries) | ,False,,,False,False
+PRMater_无稀土磁性材料数据库_Ames实验室.pdf,8,2,0,24,MP (110 entries) AGA (85 entries) 0 0.5 1 1.5 2 2 | MP (110 entries) AGA (85 entries) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ,False,,,False,False
+PRMater_无稀土磁性材料数据库_Ames实验室.pdf,8,3,0,16,MP (110 entries) AGA (85 entries) |  |  |  |  |  |  |  |  |  |  |  |  |  |  | ,False,,,False,False
+npjCompMat_文本挖掘ML_磁性超导相图预测.pdf,1,1,1,3," | Predicting the properties of materials prior to their synthesis is of great importance in materials science. Magnetic and superconducting materials exhibit a number of unique properties that make them useful in a wide variety of applications, including solid oxide fuel cells, solid-state refrigerants, photon detectors and metrology devices. In all these applications, phase transitions play an important role in determining the feasibility of the materials in question. Here, we present a pipeline for fully integrating data extracted from the scientific literature into machine-learning tools for property prediction and materials discovery. Using advanced natural language processing (NLP) and machine-learning techniques, we successfully reconstruct the phase diagrams of well-known magnetic and superconducting compounds, and demonstrate that it is possible to predict the phase-transition temperatures of compounds not present in the database. We provide the tool as an online open-source p",False,,,False,False
+npjCompMat_文本挖掘ML_磁性超导相图预测.pdf,1,1,9,3, | for further research into magnetic and superconducting materials discovery for potential device applications. | ,False,,,False,False
+npjCompMat_文本挖掘ML_磁性超导相图预测.pdf,1,1,11,3, | npj Computational Materials (2020) 6:18 ; https://doi.org/10.1038/s41524-020-0287-8 | ,False,,,False,False
+物理学报_ML无机磁性材料基态分类与磁矩预测.pdf,6,1,0,4,11062 (96.5%) | 1 (0%) | 28 (0.2%) | 373 (3.3%),False,,,False,False
+物理学报_ML无机磁性材料基态分类与磁矩预测.pdf,6,1,1,4,15 (2.7%) | 153 (27.0%) | 27 (4.8%) | 371 (65.5%),False,,,False,False
+物理学报_ML无机磁性材料基态分类与磁矩预测.pdf,6,1,2,4,60 (5.2%) | 24 (2.1%) | 481 (41.9%) | 584 (50.8%),False,,,False,False
+物理学报_ML无机磁性材料基态分类与磁矩预测.pdf,6,1,3,4,684 (10.4%) | 122 (1.8%) | 200 (3.0%) | 5593 (84.8%),False,,,False,False
+物理学报_数据挖掘稀土磁性材料综述.pdf,14,1,0,3,Predicted True Negative Positive class class |  | ,False,,,False,False
+物理学报_数据挖掘稀土磁性材料综述.pdf,14,1,1,3,Negative Positive | 0.94 | 0.06,False,,,False,False
+物理学报_数据挖掘稀土磁性材料综述.pdf,14,1,2,3, | 0.02 | 0.98,False,,,False,False
+物理学报_数据挖掘稀土磁性材料综述.pdf,14,2,0,3,Predicted True Negative Positive class class |  | ,False,,,False,False
+物理学报_数据挖掘稀土磁性材料综述.pdf,14,2,1,3,Negative Positive | 0.92 | 0.08,False,,,False,False
+物理学报_数据挖掘稀土磁性材料综述.pdf,14,2,2,3, | 0.10 | 0.90,False,,,False,False

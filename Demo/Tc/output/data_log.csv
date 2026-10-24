@@ -1,0 +1,5 @@
+﻿step,rows_before,rows_after,removed,note
+remove_known_conflicts,2947,2941,6,删除已确认的相同化学式温度冲突记录
+quality_filter,2941,2748,193,只保留 10-2000 K 的有效 Tc
+parse_formula_and_target,2748,2748,0,删除无法解析或标签缺失的记录
+merge_duplicate_formula,2748,2445,303,同一还原化学式保留标签中位数，原始记录数和极差保留在表中

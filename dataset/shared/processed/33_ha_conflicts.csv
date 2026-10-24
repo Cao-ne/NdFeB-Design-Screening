@@ -1,0 +1,3 @@
+﻿formula,n_records,n_measured,n_computed,ha_kA_m_median,ha_T_median,ha_kA_m_min,ha_kA_m_max,max_over_min,n_rt,median_basis,has_hts,sources,reason
+Fe3CoB2,2,,,1277.22,1.605,1074.3,1480.14,1.38,0,,False,shared/raw/03_literature_records_raw.csv,同源两条：1.35 T 与 Js=1.35 T 数值相同，疑为抽取串行；论文按 Ha=2K1/Ms 给出 1.86 T，与 1480 kA/m 一致，应以 1.86 T 为准
+ThMn12 系（Table II）,0,,,,,,,,0,,False,Papers/1803.03073_ML硬磁相成分优化_ThMn12.pdf Table II,该表 Ha 栏按未缩放的 DFT K1 计算（如 2×169/1.45=233 T），物理上不可能；同表 K1 另有启发式缩放因子，故整表不纳入

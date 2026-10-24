@@ -1,0 +1,10 @@
+﻿check,value
+design_space 行数,111
+design_space 磁有序构成,"{'FiM': np.int64(68), 'FM': np.int64(28), 'Unknown': np.int64(9), 'NM': np.int64(6)}"
+context 行数,4180
+context 磁有序构成,"{'FM': np.int64(1916), 'FiM': np.int64(1268), 'Unknown': np.int64(477), 'NM': np.int64(396), 'AFM': np.int64(123)}"
+重复化学式条目,1278
+OPTIMADE∩API,0
+化学体系重合,0
+NM/AFM 但 Ms 偏高,0
+文献记录数,65

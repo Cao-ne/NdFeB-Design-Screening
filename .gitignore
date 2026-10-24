@@ -1,0 +1,47 @@
+# ============================================================
+# 本仓库为公开仓库，以下内容只留在本地，不进入版本库
+# 规则依据：Markdowns/AGENTS.md 3.4「大文件、模型权重、日志不入 git」
+# ============================================================
+
+# ---- 申报与校内材料（含个人信息、评审模板，不入公开仓库）----
+docs/
+
+# ---- 第三方文献 PDF（体积大、有版权，不作为项目产出提交）----
+Papers/*.pdf
+Papers/*.part
+
+# ---- 模型权重与缓存（可由 Demo/*/train.py 重新训练生成）----
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.onnx
+*.ckpt
+
+# ---- 临时脚本与下载分片 ----
+scripts/tmp/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# ---- 编辑器与系统 ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 日志与运行产物 ----
+*.log

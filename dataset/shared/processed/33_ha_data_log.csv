@@ -1,0 +1,13 @@
+﻿step,rows_before,rows_after,removed,note
+nemad_read,2024,2024,0,读取 hcj_cleaned.csv
+nemad_select_ha_class,2024,77,1947,只保留 hcj_value_class=likely_anisotropy_field（>60 kOe，上游 QC 判为 Ha）
+nemad_drop_missing_value,77,77,0,删除 Ha 缺失或非正记录
+nemad_drop_unparsed_formula,77,77,0,删除无法解析化学式的记录
+literature_select_ha,65,2,63,只保留 property=anisotropy_field_Ha
+literature_keep_parsed,2,2,0,保留单位可换算、化学式可解析的记录
+literature_table_extract,12,12,0,按正则规则从 PDF 抽取 K1/Js
+merge_sources,91,91,0,合并 NEMAD、文献直报与文献表格抽取三个来源
+range_filter,91,91,0,只保留 100–60000 kA/m 的记录
+outlier_flag,91,91,0,>30000 kA/m 的记录标 flag_outlier，不删除
+drop_known_extraction_issue,91,90,1,剔除已核实的抽取错误记录，逐条表保留原记录
+aggregate,91,77,14,按约化化学式聚合；max_over_min>=2 写入冲突表

@@ -1,0 +1,7 @@
+Flask>=3.0,<4
+joblib
+numpy
+pandas
+pymatgen
+scikit-learn
+xgboost

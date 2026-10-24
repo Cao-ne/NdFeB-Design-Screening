@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="NdFeB 系稀土永磁体成分与性能预测本地演示">
+  <title>磁材成分预测台</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span>
+        <strong>MAGNET LAB</strong>
+        <small>NdFeB 成分预测</small>
+      </span>
+    </div>
+    <span class="prediction-badge">
+      <span class="badge-dot" aria-hidden="true"></span>
+      模型预测 · 非实验实测
+    </span>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro">
+      <p class="eyebrow">COMPOSITION → PROPERTY</p>
+      <h1>从成分，<span>窥见磁性能。</span></h1>
+      <p class="intro-copy">
+        输入一个 NdFeB 系候选化学式，使用三套 XGBoost 模型估算关键磁性能。
+        页面同时给出经验区间与适用域，帮助判断结果是否可以用于下一步粗筛。
+      </p>
+    </section>
+
+    <section class="workspace" aria-label="成分预测工作区">
+      <aside class="input-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">01 / INPUT</p>
+            <h2>候选成分</h2>
+          </div>
+          <span class="engine-chip">XGBoost</span>
+        </div>
+
+        <form id="predictForm" novalidate>
+          <label for="formulaInput">化学式</label>
+          <div class="formula-field">
+            <input
+              id="formulaInput"
+              name="formula"
+              type="text"
+              value="Nd2Fe14B"
+              maxlength="80"
+              autocomplete="off"
+              spellcheck="false"
+              aria-describedby="formulaHelp"
+            >
+            <span aria-hidden="true">→</span>
+          </div>
+          <p id="formulaHelp" class="field-help">示例：Nd₂Fe₁₄B、Nd2Fe13.5Co0.5B</p>
+
+          <div class="example-block">
+            <span>快速填入</span>
+            <div class="example-list">
+              <button type="button" class="example-chip" data-formula="Nd2Fe14B">基准</button>
+              <button type="button" class="example-chip" data-formula="Nd2Fe13.5Co0.5B">加 Co</button>
+              <button type="button" class="example-chip" data-formula="(Nd0.8Ce0.2)2Fe14B">加 Ce</button>
+              <button type="button" class="example-chip" data-formula="Nd1.8Tb0.2Fe14B">加 Tb</button>
+            </div>
+          </div>
+
+          <button id="predictButton" class="predict-button" type="submit">
+            <span class="button-label">开始预测</span>
+            <span class="button-loader" aria-hidden="true"></span>
+          </button>
+        </form>
+
+        <div id="statusBox" class="status-box" role="status" aria-live="polite">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="statusText">正在连接本地模型…</span>
+        </div>
+
+        <p class="input-note">
+          预测能力来自已有实验数据中的成分规律，不包含晶粒尺寸、晶界和制备工艺。
+        </p>
+      </aside>
+
+      <section class="results-panel" aria-labelledby="resultsTitle">
+        <div class="results-heading">
+          <div>
+            <p class="section-kicker">02 / OUTPUT</p>
+            <h2 id="resultsTitle">性能预测</h2>
+          </div>
+          <div class="formula-echo">
+            <span>当前配方</span>
+            <strong id="formulaEcho">Nd2Fe14B</strong>
+          </div>
+        </div>
+
+        <div id="domainWarning" class="domain-warning" role="alert" hidden>
+          部分结果超出训练数据适用范围，请勿据此作强推荐。
+        </div>
+
+        <div id="resultsGrid" class="results-grid">
+          <article class="result-card accent-ms" data-model="Ms">
+            <div class="card-top">
+              <div>
+                <span class="property-code">Ms</span>
+                <h3>饱和磁化强度</h3>
+              </div>
+              <span class="domain-badge is-pending" data-field="domain">等待预测</span>
+            </div>
+            <div class="value-line">
+              <strong class="result-value" data-field="value">—</strong>
+              <span class="result-unit" data-field="unit">emu/g</span>
+            </div>
+            <div class="interval-block">
+              <div class="interval-label">
+                <span>80% 经验区间</span>
+                <span data-field="interval">—</span>
+              </div>
+              <div class="interval-track">
+                <span class="interval-range"></span>
+                <span class="interval-marker" data-field="marker"></span>
+              </div>
+            </div>
+            <p class="card-note">反映磁体理论上可达到的磁化强度上限。</p>
+          </article>
+
+          <article class="result-card accent-tc" data-model="Tc">
+            <div class="card-top">
+              <div>
+                <span class="property-code">Tc</span>
+                <h3>居里温度</h3>
+              </div>
+              <span class="domain-badge is-pending" data-field="domain">等待预测</span>
+            </div>
+            <div class="value-line">
+              <strong class="result-value" data-field="value">—</strong>
+              <span class="result-unit" data-field="unit">K</span>
+            </div>
+            <div class="interval-block">
+              <div class="interval-label">
+                <span>80% 经验区间</span>
+                <span data-field="interval">—</span>
+              </div>
+              <div class="interval-track">
+                <span class="interval-range"></span>
+                <span class="interval-marker" data-field="marker"></span>
+              </div>
+            </div>
+            <p class="card-note">高于该温度后，材料的有序磁性会消失。</p>
+          </article>
+
+          <article class="result-card accent-hcj card-wide" data-model="Hcj">
+            <div class="card-top">
+              <div>
+                <span class="property-code">Hcj</span>
+                <h3>内禀矫顽力</h3>
+              </div>
+              <span class="domain-badge is-pending" data-field="domain">等待预测</span>
+            </div>
+            <div class="value-line">
+              <strong class="result-value" data-field="value">—</strong>
+              <span class="result-unit" data-field="unit">kA/m</span>
+            </div>
+            <div class="interval-block">
+              <div class="interval-label">
+                <span>80% 经验区间</span>
+                <span data-field="interval">—</span>
+              </div>
+              <div class="interval-track">
+                <span class="interval-range"></span>
+                <span class="interval-marker" data-field="marker"></span>
+              </div>
+            </div>
+            <div class="bound-block" data-field="bound">
+              <div class="bound-item">
+                <span>Ha 上界</span>
+                <strong data-field="ha">—</strong>
+              </div>
+              <div class="bound-item">
+                <span>ME = Hcj / Ha</span>
+                <strong data-field="me">—</strong>
+              </div>
+              <div class="bound-item">
+                <span>上界约束后</span>
+                <strong data-field="bounded">—</strong>
+              </div>
+            </div>
+            <p class="bound-note" data-field="meNote">等待预测…</p>
+            <p class="card-note">受晶界与微结构影响显著，当前仅用于成分粗筛。</p>
+          </article>
+        </div>
+
+        <div class="results-footer">
+          <span id="modelMeta">模型版本与数据版本读取中…</span>
+          <span>区间来自分组交叉验证的折外残差。</span>
+        </div>
+
+        <section class="compare-block" aria-labelledby="compareTitle">
+          <div class="compare-heading">
+            <div>
+              <p class="section-kicker">03 / CHECK</p>
+              <h2 id="compareTitle">预测 vs 数据库最近实测</h2>
+            </div>
+            <span class="engine-chip">NEMAD 实测</span>
+          </div>
+          <div class="compare-scroll">
+            <table class="compare-table">
+              <thead>
+                <tr>
+                  <th scope="col">项目</th>
+                  <th scope="col">Ms<small>emu/g</small></th>
+                  <th scope="col">Tc<small>K</small></th>
+                  <th scope="col">Hcj<small>kA/m</small></th>
+                </tr>
+              </thead>
+              <tbody id="compareBody">
+                <tr><th scope="row">预测值</th><td colspan="3">等待预测…</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="compare-note" id="compareNote">
+            按成分分数匹配数据库中最接近的已测配方；距离为 0 时，实测值才与输入是同一配方。
+            实测取同配方中位数，相对误差 = |预测 − 实测| / 实测。
+          </p>
+        </section>
+      </section>
+    </section>
+
+    <section class="boundary-strip" aria-label="结果边界说明">
+      <span class="boundary-index">NOTE</span>
+      <p>
+        结果用于缩小实验前候选范围，不代表实测性能，也不构成企业降本结论。
+        Hcj 的不确定性明显高于 Ms 与 Tc。
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>LOCAL DEMO · 本地运行</span>
+    <span>所有数值均需结合适用域使用</span>
+  </footer>
+
+  <noscript>本页面需要启用 JavaScript 才能调用本地预测模型。</noscript>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

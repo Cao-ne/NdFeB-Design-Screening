@@ -1,0 +1,5 @@
+﻿formula_pretty,chemsys,Ms_T,raw_cost_index_usd_per_kg,is_stable,energy_above_hull_eV,ordering,hre_mass_frac,re_over_metal,pareto_rank
+La(Fe2B)6,B-Fe-La,1.0932,0.85,False,0.0167266018421052,FM,0.0,0.0769236390528652,1
+La2Fe14B,B-Fe-La,1.5386,0.92,False,0.0200061308823542,FiM,0.0,0.125,1
+Sm2Fe14B,B-Fe-Sm,1.5743,1.79,True,0.0,FiM,0.0,0.125,1
+Y3(Fe31B7)2,B-Fe-Y,1.8474,2.33,False,0.2631824819462123,FiM,0.068734,0.0461542201182569,1

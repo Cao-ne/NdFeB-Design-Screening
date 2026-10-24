@@ -1,0 +1,14 @@
+﻿formula_pretty,chemsys,Ms_T,tc_final,tc_source,tc_n_sources,raw_cost_index_usd_per_kg,is_stable,energy_above_hull_eV,ordering,pareto_rank
+La(Fe2B)6,B-Fe-La,1.0932,104.5,predicted,,0.85,False,0.0167266018421052,FM,1
+La2Fe14B,B-Fe-La,1.5386,530.0,experimental,3.0,0.92,False,0.0200061308823542,FiM,1
+Sm2Fe17B3,B-Fe-Sm,1.4709,650.2,predicted,,1.61,False,0.0850794897821991,FiM,1
+Sm2Fe14B,B-Fe-Sm,1.5743,618.0,experimental,1.0,1.79,True,0.0,FiM,1
+Y3(Fe31B7)2,B-Fe-Y,1.8474,459.7,predicted,,2.33,False,0.2631824819462123,FiM,1
+Y2Fe14B,B-Fe-Y,1.6899,568.0,experimental,2.0,5.66,True,0.0,FiM,1
+Gd2Fe14B,B-Fe-Gd,0.8671,664.2,experimental,2.0,8.66,True,0.0,FiM,1
+YErFe14B,B-Er-Fe-Y,1.6003,606.4,predicted,,9.87,False,0.0019711927941195,FiM,1
+SmFe2Co2B,B-Co-Fe-Sm,0.8178,768.0,experimental,1.0,11.5,False,0.0121435684999937,FiM,1
+Nd2Fe23B3,B-Fe-Nd,1.6855,655.0,experimental,1.0,18.16,False,0.0085326097991078,FiM,1
+ErFe2Co2B,B-Co-Er-Fe,0.8871,673.0,predicted,,27.27,False,0.0279524405833297,FiM,1
+Pr2Fe6Co8B,B-Co-Fe-Pr,1.2364,819.5,predicted,,39.87,False,0.0336205088472487,FiM,1
+Dy2Fe6Co8B,B-Co-Dy-Fe,1.2797,810.8,predicted,,112.03,False,0.0218344944669119,FiM,1

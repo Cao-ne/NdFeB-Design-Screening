@@ -1,0 +1,6 @@
+﻿file,description,rows,bytes,sha256,source,retrieved_at_utc,api_version
+materials_summary.csv,MP 摘要（扁平 CSV）,4291,1061544,de9906e72beea4b5a80aad1918ab3f104c1832147b0b695cc6e00ec5e92b42a0,Materials Project API /materials/summary/,2026-10-20T07:11:26.171971+00:00,0.88.0rc4
+materials_summary.jsonl.gz,MP 摘要（完整 JSONL）,4291,444365,8c372505b565f4b11b61807e20f5d25358eb43c2693f519c061501d99789e26f,Materials Project API /materials/summary/,2026-10-20T07:11:26.171971+00:00,0.88.0rc4
+structures.jsonl.gz,MP 完整结构（含坐标）,4291,4051930,548b853148dc0cefc7a6ca773bc5670fc962e3fe5269d73746e5ad619b080a35,Materials Project API /materials/summary/,2026-10-20T07:11:26.171971+00:00,0.88.0rc4
+missing_materials.csv,未返回的 material_id,0,16,2935b4e847475f975c7b163f913562d85743c424dec97abdfc5c1b9aff07a333,Materials Project API /materials/summary/,2026-10-20T07:11:26.171971+00:00,0.88.0rc4
+fetch_log.csv,抓取批次日志,15,377,4f9e6566e4653d12a48b6433ea6cb6039494d4ce46f02e6310ddb4a667b03348,Materials Project API /materials/summary/,2026-10-20T07:11:26.171971+00:00,0.88.0rc4

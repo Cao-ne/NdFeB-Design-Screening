@@ -1,0 +1,4 @@
+﻿step,rows_before,rows_after,removed,note
+quality_filter,2024,1345,679,只保留 plausible_hcj、hcj_flag=ok 且 Hcj 非负的记录
+parse_formula_and_target,1345,1345,0,删除无法解析或标签缺失的记录
+merge_duplicate_formula,1345,1133,212,同一还原化学式保留标签中位数，原始记录数和极差保留在表中

@@ -1,0 +1,152 @@
+﻿file,column,meaning,unit_or_range
+MP/raw/01_mp_dft_structures_raw.csv,mp_id,Materials Project 材料编号,-
+MP/raw/01_mp_dft_structures_raw.csv,formula_reduced,约化化学式,-
+MP/raw/01_mp_dft_structures_raw.csv,frac_<El>,各元素原子分数（组成描述符）,0-1
+MP/raw/01_mp_dft_structures_raw.csv,space_group_symbol,空间群符号,-
+MP/raw/01_mp_dft_structures_raw.csv,space_group_number,空间群编号（IT 编号）,1-230
+MP/raw/01_mp_dft_structures_raw.csv,crystal_system_from_cell,由晶胞参数派生的晶系（派生量，非实验对称性指认）,-
+MP/raw/01_mp_dft_structures_raw.csv,a_A/b_A/c_A,晶格常数,Å
+MP/raw/01_mp_dft_structures_raw.csv,alpha_deg/beta_deg/gamma_deg,晶格夹角,度
+MP/raw/01_mp_dft_structures_raw.csv,formation_energy_per_atom_eV,每原子形成能（GGA/GGA+U）,eV/atom
+MP/raw/01_mp_dft_structures_raw.csv,energy_above_hull_eV,凸包以上能量（相稳定性）,eV/atom
+shared/raw/02_nomad_entries_raw.csv,entry_id,NOMAD 条目编号,-
+shared/raw/02_nomad_entries_raw.csv,results.material.chemical_formula_hill,Hill 记法化学式,-
+shared/raw/02_nomad_entries_raw.csv,results.material.symmetry.space_group_symbol,空间群,-
+shared/raw/02_nomad_entries_raw.csv,results.properties.available_properties,该条目携带的性能字段,-
+shared/raw/02_nomad_entries_raw.csv,rare_earth,检索所用稀土元素,-
+shared/raw/03_literature_records_raw.csv,property,性能类型（Tc/Ms/BHmax/Hc/Ha/Br）,-
+shared/raw/03_literature_records_raw.csv,composition_nearest,离数值最近的组分，即该数值最可能对应的成分,-
+shared/raw/03_literature_records_raw.csv,value_raw/unit_raw,原文数值与单位,-
+shared/raw/03_literature_records_raw.csv,value_SI/unit_SI,换算后的 SI 数值与单位,-
+shared/raw/03_literature_records_raw.csv,confidence,high=组分与数值距离≤80字符；medium=同句但更远,-
+shared/raw/03_literature_records_raw.csv,process_hint,同句出现的工艺关键词（退火/晶界扩散等）,-
+shared/raw/03_literature_records_raw.csv,evidence,原文证据句（人工复核用）,-
+shared/raw/05_literature_tables_raw.csv,cells,"整行单元格以 "" | "" 连接",-
+shared/raw/06_element_cost_reference.csv,price_usd_per_kg,元素参考价（2024-2025 量级，非实时报价）,USD/kg
+shared/raw/06_element_cost_reference.csv,criticality_class,供应风险分级,-
+shared/processed/08_literature_wide_processed.csv,Tc_K / Ms_T / Ms_emu_g / Hc_kA_m / Ha_kA_m / Ha_T / BHmax_kJ_m3,按组分汇总的磁性能列，单位见列名后缀,见列名
+MP/raw/09_mp_magnetism_raw.csv,total_magnetization_uB_cell,DFT 单胞总磁矩,μB/cell
+MP/raw/09_mp_magnetism_raw.csv,moment_uB_per_fu,每化学式单位磁矩（DFT）,μB/f.u.
+MP/raw/09_mp_magnetism_raw.csv,Ms_T,派生饱和磁化强度 = 4πM/1e4（DFT，0 K）,T
+MP/raw/09_mp_magnetism_raw.csv,Ms_emu_g,派生饱和比磁化强度,emu/g
+MP/raw/09_mp_magnetism_raw.csv,ordering,DFT 磁有序类型（FM/FiM/AFM/NM/Unknown）,-
+MP/raw/09_mp_magnetism_raw.csv,is_magnetic,是否磁性,bool
+MP/raw/09_mp_magnetism_raw.csv,energy_above_hull_eV,凸包以上能量（相稳定性）,eV/atom
+MP/raw/09_mp_magnetism_raw.csv,pool,design_space=目标成分空间；context=背景/预训练池,-
+MP/raw/09_mp_magnetism_raw.csv,frac_<El>,原子分数（组成描述符）,0-1
+MP/processed/10_design_space_refeb_processed.csv,mass_frac_<El>,质量分数（由成分折算）,0-1
+MP/processed/10_design_space_refeb_processed.csv,raw_cost_index_usd_per_kg,按质量分数与元素参考价估算的原料成本指数（量级参考，非报价）,USD/kg
+MP/processed/12_mp_magnetism_clean.csv,n_polymorphs,该化学式在原始抓取结果里的记录条数,>=1
+MP/processed/12_mp_magnetism_clean.csv,polymorph_Ms_spread_T,同一化学式各多形体 Ms_T 的极差（标签噪声指标）,T
+MP/processed/12_mp_magnetism_clean.csv,polymorph_hull_spread_eV,同一化学式各多形体凸包能的极差,eV/atom
+MP/processed/12_mp_magnetism_clean.csv,select_rule,保留该条的依据（most_stable）,-
+MP/processed/15_split_table.csv,split,train/val/test 归属，按化学体系分组切分（写死）,-
+MP/processed/15_split_table.csv,n_in_chemsys,同一化学体系内的记录条数（切分时的最小单位）,>=1
+MP/processed/16_design_space_model.csv,split,该组分的 train/val/test 归属,-
+MP/processed/17_feature_audit.csv,frac_sum_known,已跟踪元素原子分数之和,0-1
+MP/processed/17_feature_audit.csv,untracked_frac,未跟踪元素（O/C/Bi/Th/Sc/Tm 等）原子分数之和,0-1
+MP/processed/17_feature_audit.csv,is_oxide,化学体系含 O，多为稀土铁硼酸盐而非 RE-Fe-B 金属间化合物,0/1
+MP/processed/17_feature_audit.csv,action,处理建议：keep / exclude_oxide / exclude_nonclosure,-
+MP/processed/18_features_all.csv,re_over_metal,稀土占（稀土+Fe+Co+Ni）的原子比，区分 2:14:1 / 2:17 / 1:12,0-1
+MP/processed/18_features_all.csv,hre_over_re,重稀土占全部稀土的比例，矫顽力与成本的核心杠杆,0-1
+MP/processed/18_features_all.csv,co_over_tm,Co 在过渡金属子晶格中的取代度,0-1
+MP/processed/18_features_all.csv,w_mean_z/w_mean_mass/w_mean_radius/w_mean_electroneg/w_mean_valence,成分加权的平均原子序数/原子量/半径/电负性/价电子（仅已跟踪元素）,-
+MP/processed/18_features_all.csv,mix_entropy,成分混合熵 -Σx ln x（未跟踪元素作为单一伪物种）,-
+MP/processed/18_features_all.csv,size_mismatch/electroneg_spread,原子尺寸错配 δ 与电负性差 Δχ（仅已跟踪元素）,-
+MP/processed/18_features_all.csv,re_avg_degennes/re_avg_moment,每稀土平均 de Gennes 因子 / 自由离子磁矩（4f 磁性先验）,-
+MP/processed/18_features_all.csv,tm_avg_moment,每过渡金属平均原子磁矩（Fe 2.22 / Co 1.72 / Ni 0.61 加权）,muB
+MP/processed/18_features_all.csv,raw_cost_index_usd_per_kg,按质量分数与元素参考价估算的原料成本指数（量级参考）,USD/kg
+NEMAD/processed/26_hcj_model_metrics.csv,r2_log,对数尺度决定系数（目标为 log10(1+Hcj)）,-inf~1
+NEMAD/processed/26_hcj_model_metrics.csv,mae_log_dex,对数尺度平均绝对误差,dex（10 倍为一个 dex）
+NEMAD/processed/26_hcj_model_metrics.csv,mae_raw_kA_m,还原到原始尺度的平均绝对误差,kA/m
+NEMAD/processed/26_hcj_model_metrics.csv,median_abs_err_ratio,中位相对误差 |pred-obs|/obs,0~1
+NEMAD/processed/26_hcj_model_metrics.csv,cv,验证口径：kfold=随机 5 折；chemsys=按化学体系分组 5 折；chemsys::RE-Fe-B=分组折上 RE-Fe-B 子群误差,-
+shared/processed/27_hcj_imputed_design_space.csv,hcj_kA_m_pred,模型预测的内禀矫顽力,kA/m
+shared/processed/27_hcj_imputed_design_space.csv,hcj_pred_dex,预测值取 log10(1+Hcj) 后的值,dex
+shared/processed/27_hcj_imputed_design_space.csv,ad_dist,到训练集最近邻的标准化成分距离（适用域判据）,>=0
+shared/processed/27_hcj_imputed_design_space.csv,in_domain,是否落在适用域内（ad_dist<=训练集留一最近邻距离 95 分位）,0/1
+shared/processed/27_hcj_imputed_design_space.csv,hard_family,由空间群推得的已知硬磁家族,2:14:1 / 2:17 / 1:12 / 1:5 / other
+shared/processed/27_hcj_imputed_design_space.csv,hcj_trustworthy,可信标记：in_domain 且属已知硬磁家族（推荐只使用这部分）,0/1
+shared/processed/27_hcj_imputed_design_space.csv,hcj_label_in_train,该组分本身出现在 Hcj 训练集里（其预测为样本内，不可当检验用）,0/1
+MP/raw/materials_summary.csv,material_id,Materials Project 材料编号,-
+MP/raw/materials_summary.csv,formula_pretty,MP 可读化学式,-
+MP/raw/materials_summary.csv,space_group_symbol,空间群符号,-
+MP/raw/materials_summary.csv,space_group_number,国际表空间群编号,1-230
+MP/raw/materials_summary.csv,crystal_system,晶系,-
+MP/raw/materials_summary.csv,density_g_cm3,密度,g/cm3
+MP/raw/materials_summary.csv,energy_above_hull_eV,凸包以上能量,eV/atom
+MP/raw/materials_summary.csv,ordering,磁有序类型,FM/FiM/AFM/NM/Unknown
+MP/raw/materials_summary.csv,total_magnetization_uB,单胞总磁矩,μB/cell
+MP/raw/materials_summary.csv,moment_uB_per_fu,每化学式单位磁矩,μB/f.u.
+MP/raw/structures.jsonl.gz,structure,pymatgen Structure 字典：lattice + sites(abc/xyz/species/magmom),-
+NEMAD/processed/ms_cleaned.csv,Ms_emu_g,质量饱和磁化强度,emu/g
+NEMAD/processed/ms_cleaned.csv,Ms_muB_fu,每化学式单位饱和磁矩,μB/f.u.
+NEMAD/processed/ms_cleaned.csv,Ms_conv_status,Ms 单位换算状态,ok/need_density/ambiguous
+NEMAD/processed/tc_dataset.csv,tc_K,居里温度,K
+NEMAD/processed/tc_dataset.csv,tc_method,Tc 测量/计算方法,exp/unknown
+NEMAD/processed/tc_dataset.csv,structure_type,结构类型,-
+NEMAD/processed/hcj_cleaned.csv,Hcj_kA_m,内禀矫顽力,kA/m
+NEMAD/processed/hcj_cleaned.csv,hcj_value_class,Hcj 标签质量分档,plausible_hcj/borderline/likely_anisotropy_field
+NEMAD/processed/hcj_cleaned.csv,meas_temp_K,测量温度,K
+NEMAD/raw/source_manifest.csv,sha256,文件内容校验值,-
+shared/processed/33_ha_records.csv,ha_id,Ha 记录编号,-
+shared/processed/33_ha_records.csv,formula_raw,上游原始材料名,-
+shared/processed/33_ha_records.csv,formula,约化化学式,-
+shared/processed/33_ha_records.csv,ha_kA_m,各向异性场,kA/m
+shared/processed/33_ha_records.csv,ha_T,各向异性场,T
+shared/processed/33_ha_records.csv,ha_source,来源类别,nemad_class / literature
+shared/processed/33_ha_records.csv,temperature_K,测量温度,K，缺失为空
+shared/processed/33_ha_records.csv,temp_band,温度档,RT/low/high/NA
+shared/processed/33_ha_records.csv,source_file,来源文件,-
+shared/processed/33_ha_records.csv,source_doi,来源 DOI 或 PDF 文件名,-
+shared/processed/33_ha_records.csv,evidence,判定依据,-
+shared/processed/33_ha_records.csv,confidence,置信度,high/medium/low
+shared/processed/33_ha_records.csv,needs_review,是否需要人工复核原文献,True/False
+shared/processed/33_ha_records.csv,flag_outlier,Ha 是否超过 30000 kA/m（约 37.7 T），只标记不删除,True/False
+shared/processed/33_ha_records.csv,flag_exclude,是否因已核实的抽取错误而不参与聚合,True/False
+shared/processed/33_ha_records.csv,review_note,复核备注,-
+shared/processed/33_ha_records.csv,data_type,数据类型,measured/computed/reported
+shared/processed/33_ha_records.csv,page,原文页码（仅文献表格抽取）,整数或空
+shared/processed/33_ha_dataset.csv,formula,约化化学式,-
+shared/processed/33_ha_dataset.csv,n_records,该配方 Ha 记录数,整数
+shared/processed/33_ha_dataset.csv,n_measured,其中实测/文献上报条数,整数
+shared/processed/33_ha_dataset.csv,n_computed,其中 DFT 计算条数,整数
+shared/processed/33_ha_dataset.csv,ha_kA_m_median,Ha 中位数,kA/m
+shared/processed/33_ha_dataset.csv,ha_T_median,Ha 中位数,T
+shared/processed/33_ha_dataset.csv,ha_kA_m_min,Ha 最小值,kA/m
+shared/processed/33_ha_dataset.csv,ha_kA_m_max,Ha 最大值,kA/m
+shared/processed/33_ha_dataset.csv,max_over_min,极差比,>=1
+shared/processed/33_ha_dataset.csv,n_rt,室温档记录数,整数
+shared/processed/33_ha_dataset.csv,median_basis,中位数口径,RT/measured/computed
+shared/processed/33_ha_dataset.csv,has_hts,化学式是否含 Dy/Tb,True/False
+shared/processed/33_ha_dataset.csv,sources,来源文件集合,-
+shared/processed/33_ha_data_log.csv,step,处理步骤,-
+shared/processed/33_ha_data_log.csv,rows_before,步骤前行数,整数
+shared/processed/33_ha_data_log.csv,rows_after,步骤后行数,整数
+shared/processed/33_ha_data_log.csv,removed,删除行数,整数
+shared/processed/33_ha_data_log.csv,note,步骤说明,-
+shared/processed/33_ha_conflicts.csv,formula,冲突配方,-
+shared/processed/33_ha_conflicts.csv,n_records,该配方记录数,整数
+shared/processed/33_ha_conflicts.csv,ha_kA_m_median,Ha 中位数,kA/m
+shared/processed/33_ha_conflicts.csv,ha_T_median,Ha 中位数,T
+shared/processed/33_ha_conflicts.csv,ha_kA_m_min,Ha 最小值,kA/m
+shared/processed/33_ha_conflicts.csv,ha_kA_m_max,Ha 最大值,kA/m
+shared/processed/33_ha_conflicts.csv,max_over_min,同配方 Ha 极差比,>=1
+shared/processed/33_ha_conflicts.csv,n_rt,室温档记录数,整数
+shared/processed/33_ha_conflicts.csv,has_hts,是否含 Dy/Tb,True/False
+shared/processed/33_ha_conflicts.csv,sources,来源文件集合,-
+shared/processed/33_ha_conflicts.csv,reason,冲突或抽取问题的原因,-
+shared/processed/34_hcj_ha_bound_check.csv,check_type,校验类型,observed / design
+shared/processed/34_hcj_ha_bound_check.csv,formula,约化化学式,-
+shared/processed/34_hcj_ha_bound_check.csv,ha_kA_m,该配方 Ha 中位数,kA/m
+shared/processed/34_hcj_ha_bound_check.csv,ha_T,该配方 Ha 中位数,T
+shared/processed/34_hcj_ha_bound_check.csv,value_kA_m,被校验的 Hcj 值（观察或预测）,kA/m
+shared/processed/34_hcj_ha_bound_check.csv,value_source,Hcj 值来源,-
+shared/processed/34_hcj_ha_bound_check.csv,ME,工艺效率系数 ME=Hcj/Ha（Manufacture Efficiency）,"(0,1)"
+shared/processed/34_hcj_ha_bound_check.csv,margin_kA_m,Ha 减 Hcj 的余量,kA/m
+shared/processed/34_hcj_ha_bound_check.csv,status,是否满足 Hcj<=Ha,within_bound / violates_upper_bound
+shared/processed/34_hcj_ha_bound_check.csv,ha_n_records,该配方 Ha 记录数,整数
+shared/processed/34_hcj_ha_bound_check.csv,ha_max_over_min,该配方 Ha 极差比,>=1
+shared/processed/34_hcj_ha_bound_check.csv,ha_sources,该配方 Ha 的来源文件集合,-
+shared/processed/34_hcj_ha_bound_check.csv,temp_note,温度口径是否对齐,-
+shared/processed/34_hcj_ha_bound_check.csv,note,备注（样本数、家族、口径）,-

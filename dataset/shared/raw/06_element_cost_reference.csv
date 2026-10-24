@@ -1,0 +1,27 @@
+﻿element,price_usd_per_kg,criticality_class,supply_risk_note,price_basis,authoritative_source
+Fe,0.15,bulk commodity,无需担忧；钢/铁为大宗,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+B,3.5,bulk commodity,硼砂/硼铁供应充足,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Cu,9.0,base metal,价格随铜价波动,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Al,2.6,base metal,供应充足,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Si,2.0,bulk commodity,冶金级硅供应充足,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Mn,2.2,bulk commodity,供应充足,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Ni,16.0,base metal,印尼供应主导，价格波动,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Cr,9.0,base metal,供应稳定,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Ti,8.0,base metal,海绵钛价格波动,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+V,30.0,base metal,供应集中，价格波动,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Nb,45.0,critical,巴西主导，供应链高度集中,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Zr,35.0,critical,核级需求带动，供应集中,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Ga,300.0,critical,中国出口管制，战略敏感,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Co,30.0,critical,刚果金主导，伦理与供应风险,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Ce,3.0,rare earth,轻稀土，供给过剩、价格低廉,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+La,3.0,rare earth,轻稀土，供给过剩、价格低廉,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Y,30.0,rare earth,中重稀土，供应偏紧,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Sm,6.0,rare earth,轻稀土，钐钴磁体需求,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Gd,30.0,rare earth,中稀土，供应偏紧,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Nd,100.0,rare earth,Pr/Nd 为磁体主元素，价格中枢高,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Pr,105.0,rare earth,与 Nd 联动，价格中枢高,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Ho,110.0,rare earth,重稀土，价格高、供应紧,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Er,45.0,rare earth,重稀土，供应偏紧,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Lu,1500.0,rare earth,重稀土中最昂贵之一,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Dy,350.0,heavy rare earth,重稀土，晶界扩散关键元素，价格高,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price
+Tb,900.0,heavy rare earth,最贵的磁体用重稀土，价格波动剧烈,indicative 2024-2025 order of magnitude,USGS Mineral Commodity Summaries; Asian Metal / SMM spot price

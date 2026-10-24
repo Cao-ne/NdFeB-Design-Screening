@@ -1,0 +1,4 @@
+﻿step,rows_before,rows_after,removed,note
+quality_filter,3457,3193,264,只保留单位换算状态为 ok 且 Ms 非负的记录
+parse_formula_and_target,3193,3193,0,删除无法解析或标签缺失的记录
+merge_duplicate_formula,3193,2621,572,同一还原化学式保留标签中位数，原始记录数和极差保留在表中

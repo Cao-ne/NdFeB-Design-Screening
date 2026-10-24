@@ -1,0 +1,61 @@
+﻿file,layer,rows,columns,source,purpose,refresh_note
+dataset_index.csv,索引,55,7,本文件,数据文件清单：来源、行列数、用途与刷新说明,随数据文件增删同步更新
+data_dictionary.csv,字典,90,4,字段说明,各数据文件的列含义、单位与取值口径,可重跑 scripts/ 下同名脚本刷新
+MP/raw/01_mp_dft_structures_raw.csv,内禀/结构,110,51,Materials Project（OPTIMADE 免密钥通道）,含稀土+Fe+B 的晶体结构与形成能/凸包能，用于相稳定性与结构描述符,可重跑 scripts/ 下同名脚本刷新
+shared/raw/02_nomad_entries_raw.csv,原始记录,1957,16,NOMAD 公开数据仓库,Nd/Dy/Tb/Pr/Ce/Sm/Gd/Y + Fe + B 的条目索引（含计算/实验元数据与链接）,可重跑 scripts/ 下同名脚本刷新
+shared/raw/03_literature_records_raw.csv,内禀+外禀,65,11,本地 36 篇文献正文抽取,成分—磁性能记录，附原文证据句与置信度，已做单位换算与合理性过滤,可重跑 scripts/ 下同名脚本刷新
+shared/raw/04_literature_data_links_raw.csv,线索,17,3,本地文献中出现的仓库链接,Zenodo/GitHub/Materials Cloud 等可下载数据集入口（本机网络受限，未下载）,可重跑 scripts/ 下同名脚本刷新
+shared/raw/05_literature_tables_raw.csv,原始表格,367,11,本地 36 篇文献表格抽取,PDF 表格按行长格式还原，含矫顽力/磁能积等实验数据，需二次结构化,可重跑 scripts/ 下同名脚本刷新
+shared/raw/06_element_cost_reference.csv,成本,26,6,元素价格与供应风险（半定量）,用于把成分优化目标约束到企业可承受的配方,可重跑 scripts/ 下同名脚本刷新
+shared/raw/07_external_dataset_index_raw.csv,外部数据集,0,4,Zenodo/GitHub 下载结果,本机对 github.com/zenodo.org 不可达，运行后可用于登记已取回的外部数据集,可重跑 scripts/ 下同名脚本刷新
+shared/processed/08_literature_wide_processed.csv,建模用,34,24,由 03 透视生成的宽表,一行一个组分，各磁性能列并排，便于直接用于回归/分类建模,可重跑 scripts/ 下同名脚本刷新
+MP/raw/09_mp_magnetism_raw.csv,内禀（DFT）,4291,62,Materials Project API（带密钥）,4291 条含磁矩数据：111 条 NdFeB 设计空间 + 4180 条稀土-铁/铁-硼背景池,可重跑 scripts/ 下同名脚本刷新
+MP/processed/10_design_space_refeb_processed.csv,建模用,111,41,由 09 筛出的设计空间子集,RE-Fe-B 体系一行一成分，含 Ms、磁有序、凸包能、成分分数与原料成本指数,可重跑 scripts/ 下同名脚本刷新
+MP/processed/11_data_audit_report.csv,审计,9,2,由 raw/09 与 raw/01 统计（scripts/audit_data.py）,设计空间与背景池的覆盖、重复与磁有序构成审计,重跑 scripts/audit_data.py 刷新
+MP/processed/12_mp_magnetism_clean.csv,清洗后（DFT）,3395,66,由 09 去多形体得到,同一化学式只保留最稳定的多形体，附多形体条数与磁矩离散度，供建模直接用,重跑 scripts/clean_data.py 刷新
+MP/processed/13_dft_structures_clean.csv,清洗后（结构）,103,55,由 01 去多形体得到,结构描述符表，同一化学式只保留最稳定的一条,重跑 scripts/clean_data.py 刷新
+MP/processed/14_polymorph_removal_log.csv,审计,903,15,12/13 去多形体的剔除明细,每一条被剔除的多形体都留痕：保留谁、剔除谁、能量与磁矩差多少,重跑 scripts/clean_data.py 刷新
+MP/processed/15_split_table.csv,建模用,3395,8,由 12 按化学体系分组切分生成（写死）,train/val/test 归属表；生成后冻结，重跑不重新洗牌，避免同体系泄漏,重跑 scripts/clean_data.py 刷新
+MP/processed/16_design_space_model.csv,建模用,104,44,12 的设计空间子集 + 15 的切分 + 成本指数,建模主表：一行一个组分，成分分数、磁性能、成本指数与切分归属并排,重跑 scripts/clean_data.py 刷新
+MP/processed/17_feature_audit.csv,审计,104,12,由 12/15 派生（scripts/feature_engineering.py）,设计空间逐行数据质量留痕：氧化物/成分不闭合/磁有序，附处理建议,重跑 scripts/feature_engineering.py 刷新
+MP/processed/18_features_all.csv,特征,3395,103,由 12/15/06 派生（scripts/feature_engineering.py）,全量特征矩阵：成分分数、化学计量比、加权描述符、磁性先验与成本指数,重跑 scripts/feature_engineering.py 刷新
+MP/processed/19_ms_baseline_metrics.csv,建模,4,10,由 18 派生（scripts/baseline_ms.py）,Ms_T 基线各模型在冻结切分上的 R2/MAE/RMSE（含 dummy 与迁移对照）,重跑 scripts/baseline_ms.py 刷新
+MP/processed/20_ms_feature_importance.csv,建模,59,4,由 18 派生（scripts/baseline_ms.py）,各特征的 Spearman 相关、增益重要性与置换重要性,重跑 scripts/baseline_ms.py 刷新
+MP/processed/21_pareto_front_ms_cost.csv,优化,4,10,由 18 派生（scripts/pareto_front.py）,Ms—成本双目标的非支配配方集合（Pareto 前沿）,重跑 scripts/pareto_front.py 刷新
+shared/processed/22_tc_join_design_space.csv,标签,104,13,18 + 外部 Tc 数据集按成分匹配（scripts/join_tc.py）,设计空间附加居里温度标签（同化学式多值取中位数，未匹配留空）,重跑 scripts/join_tc.py 刷新
+NEMAD/processed/23_tc_model_metrics.csv,建模,3,11,外部 Tc + 22（scripts/train_tc.py）,Tc 模型交叉验证与设计空间真实留出检验指标,重跑 scripts/train_tc.py 刷新
+shared/processed/24_tc_imputed_design_space.csv,标签,104,13,22 的实验 Tc + 模型补全（scripts/train_tc.py）,设计空间每行带实验/补全后的最终 Tc 及来源标记,重跑 scripts/train_tc.py 刷新
+shared/processed/25_pareto_front_ms_tc_cost.csv,优化,13,11,由 24 派生（scripts/pareto3d.py）,Ms/Tc/成本三目标的非支配配方集合,重跑 scripts/pareto3d.py 刷新
+NEMAD/processed/26_hcj_model_metrics.csv,建模,12,10,外部 Hcj 数据（scripts/train_hcj.py）,矫顽力模型交叉验证、子群误差与敏感性对照指标,重跑 scripts/train_hcj.py 刷新
+shared/processed/27_hcj_imputed_design_space.csv,标签,104,15,18 + 模型补全（scripts/train_hcj.py）,设计空间每行的预测矫顽力、适用域距离与域内标记,重跑 scripts/train_hcj.py 刷新
+NEMAD/processed/28_ms_model_metrics.csv,建模,10,8,外部 Ms 数据 + 18（scripts/train_ms.py）,成分法 Ms 模型的交叉验证、子群误差与 DFT 跨来源校验,重跑 scripts/train_ms.py 刷新
+shared/processed/28_ms_imputed_design_space.csv,标签,77,13,18 + 模型预测（scripts/train_ms.py）,设计空间的成分法 Ms 预测（emu/g 与 μ0Ms）及与 DFT 的偏差,重跑 scripts/train_ms.py 刷新
+shared/processed/29_ms_label_conflict.csv,审计,12,9,09 + 外部 Ms 数据比对（scripts/check_ms_labels.py）,2:14:1 家族 DFT 与实验磁矩的逐组分比对，界定 DFT 标签可用范围,重跑 scripts/check_ms_labels.py 刷新
+shared/processed/30_design_table.csv,建模,104,43,18+24+27+28+29 合并（scripts/design_table.py）,建模主表：Ms/Tc/Hcj/成本/稳定性并排，附 DFT 标签质量与可信标记,重跑 scripts/design_table.py 刷新
+shared/processed/31_search_shortlist.csv,优化,5,17,由 31 前沿折中排序（scripts/search_compositions.py）,从非支配解中按折中距离挑出的推荐配方短名单,重跑 scripts/search_compositions.py 刷新
+shared/processed/31_search_candidates.csv,优化,420,15,三个成分模型预测（scripts/search_compositions.py）,枚举候选配方的 Ms/Tc/Hcj 预测、成本与适用域判定,重跑 scripts/search_compositions.py 刷新
+shared/processed/31_search_pareto.csv,优化,60,16,由 31 候选筛非支配（scripts/search_compositions.py）,Ms/Tc/成本三目标的非支配候选配方（Hcj 不参与判定）,重跑 scripts/search_compositions.py 刷新
+NEMAD/processed/32_dl_uncertainty_value.csv,建模,6,6,scripts/dl_multitask.py,不确定性的区分能力：标准差与绝对误差的秩相关、分半 MAE 比,重跑 scripts/dl_multitask.py 刷新
+NEMAD/processed/32_dl_calibration.csv,建模,6,6,scripts/dl_multitask.py,深度集成 80% 预测区间的实际覆盖率（不确定性校准）,重跑 scripts/dl_multitask.py 刷新
+NEMAD/processed/32_dl_predictions.csv,建模,9124,8,scripts/dl_multitask.py,逐样本的折外预测、集成标准差与 GBM 对照预测,重跑 scripts/dl_multitask.py 刷新
+NEMAD/processed/32_dl_vs_gbm.csv,建模,18,8,scripts/dl_multitask.py（多任务 DL 集成 vs GBM）,三任务上 DL 集成与 GBM 的同折对比指标,重跑 scripts/dl_multitask.py 刷新
+NEMAD/processed/32_dl_history.csv,建模,30,5,scripts/dl_multitask.py,每折每成员的早停轮次与验证损失,重跑 scripts/dl_multitask.py 刷新
+MP/raw/materials_summary.csv,原始（MP）,4291,26,Materials Project API /materials/summary/,4291 个冻结 material_id 的摘要：成分、空间群、密度、磁性、稳定性,重跑 scripts/fetch_mp_full.py 刷新
+MP/raw/materials_summary.jsonl.gz,原始（MP）,4291,26,Materials Project API /materials/summary/,摘要的完整 JSONL 版本，保留嵌套字段,重跑 scripts/fetch_mp_full.py 刷新
+MP/raw/structures.jsonl.gz,原始（结构）,4291,3,Materials Project API /materials/summary/ 的 structure 字段,完整晶体结构：晶格、位点、元素、分数/笛卡尔坐标、磁矩,重跑 scripts/fetch_mp_full.py 刷新
+MP/raw/missing_materials.csv,原始（审计）,0,1,scripts/fetch_mp_full.py 比对结果,API 未返回的 material_id；当前为 0,随抓取自动刷新
+MP/raw/fetch_log.csv,原始（审计）,15,6,scripts/fetch_mp_full.py,抓取批次、请求数、返回数、缺失数与耗时,随抓取自动刷新
+MP/raw/source_manifest.csv,原始（审计）,5,8,scripts/fetch_mp_full.py,MP 输出文件的大小、行数与 SHA256 校验值,随抓取自动刷新
+NEMAD/raw/ms_nemad_all.csv,原始（外部）,6508,92,NEMAD Ms 全材料原始文件,Ms 原始记录，保留原列名和单位,外部源更新时重新归档
+NEMAD/raw/ms_nemad_rare_earth.csv,原始（外部）,3457,91,NEMAD Ms 稀土子集原始文件,Ms 稀土子集原始记录,外部源更新时重新归档
+NEMAD/raw/hcj_nemad_all.csv,原始（外部）,4467,88,NEMAD Hcj 全材料原始文件,Hcj 原始记录，保留原列名和单位,外部源更新时重新归档
+NEMAD/raw/hcj_nemad_rare_earth.csv,原始（外部）,2024,87,NEMAD Hcj 稀土子集原始文件,Hcj 稀土子集原始记录,外部源更新时重新归档
+NEMAD/processed/ms_cleaned.csv,外部输入,3457,36,当前 Ms 模型实际使用的上游文件,Ms 训练输入；过滤后约 1682 条进入模型,保持与上游文件一致
+NEMAD/processed/tc_dataset.csv,外部输入,2947,16,当前 Tc 模型实际使用的上游文件,Tc 训练输入；按化学式聚合后约 1958 条,保持与上游文件一致
+NEMAD/processed/hcj_cleaned.csv,外部输入,2024,38,当前 Hcj 模型实际使用的上游文件,Hcj 训练输入；plausible 档 1787 条,保持与上游文件一致
+NEMAD/raw/source_manifest.csv,原始（审计）,9,7,外部 NEMAD 文件归档,外部文件来源、行数、大小与 SHA256 校验值,外部文件变更时刷新
+shared/processed/33_ha_records.csv,外禀/各向异性,91,18,NEMAD 高矫顽力档 + 文献 Ha,Ha 逐条记录，含出处、温度与证据句,python scripts/33_build_ha_dataset.py
+shared/processed/33_ha_dataset.csv,外禀/各向异性,77,13,33_ha_records.csv 聚合,按配方聚合的 Ha 中位数与极差,python scripts/33_build_ha_dataset.py
+shared/processed/33_ha_data_log.csv,外禀/各向异性,12,5,33_ha_records.csv 处理过程,Ha 数据每一步行数变化,python scripts/33_build_ha_dataset.py
+shared/processed/33_ha_conflicts.csv,外禀/各向异性,2,14,33_ha_records.csv 聚合,同配方 Ha 分歧与已知抽取问题,python scripts/33_build_ha_dataset.py
+shared/processed/34_hcj_ha_bound_check.csv,外禀/各向异性,21,14,33_ha_dataset + 27_hcj 预测 + hcj_cleaned,Hcj<=Ha 物理上界校验结果（只校验，不改预测）,python scripts/34_hcj_ha_bound_check.py
